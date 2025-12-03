@@ -273,18 +273,18 @@ Agar user Cancel kare → null return hota hai.*/
 
 
 
-var uname = prompt ("enter your name")
-var absentstudent = "noor"
+// var uname = prompt ("enter your name")
+// var absentstudent = prompt ("enter your absent students")
 
-if (uname === absentstudent) {
-    console.log(uname + " you are not allow");
+// if (uname === absentstudent) {
+//     console.log(uname + " you are not allow");
     
-}    
+// }    
 
 
-else {
-    console.log(uname +" yes allow in class")
-}
+// else {
+//     console.log(uname +" yes allow in class")
+// }
 
 
 
@@ -372,4 +372,140 @@ Number aur String ka type different → false*/
 
 
 
-// video 1:19:40
+
+
+// peracts
+
+
+// var userName = prompt ("enter you are student name")
+
+// absentStudent = ("noor")
+
+// if (userName === absentStudent  ) {
+//     console.log ("not allow in class")
+// } else{
+//     console.log ("yes allow in class")
+// }
+
+
+
+
+// .........chapter 11 comparison operators..................
+
+
+
+/* javascript comparion operators woh hote hain jo do value ko compare karte hain inka
+resutl true ya false hota ha  */
+
+
+
+/* 1  Equal to ( == )
+Sirf value compare karta hai (type nahi).*/
+
+// 5 == "5"   // true
+
+
+
+
+/* 2 Strict Equal ( === )
+Value + type dono compare karta hai.*/
+
+// 5 === "5" //false
+// 5 === 5 // true
+
+
+
+
+/* 3. Not Equal ( != )
+Value equal na ho to true.*/
+
+// 5 !=3 //true
+// 5 !=5
+
+
+
+
+
+/*4. Strict Not Equal ( !== )
+Value + type dono check karta hai. */
+
+
+// 5 !== "5"   // true
+// 5 !== 5     // false
+
+
+
+// 5. Greater Than ( > )
+
+// 7 > 5 //true
+
+
+
+
+// var a = 10;
+// var b = 5;
+
+// console.log("a === b :", a === b);
+// console.log("a == b:", a == b);
+// console.log ("a === b:" ,a != b);
+
+
+/*Operator	Meaning
+==	Equal
+===	Strict Equal
+!=	Not Equal
+!==	Strict Not Equal
+>	Greater
+<	Less
+>=	Greater or Equal
+<=	Less or Equal */
+
+
+
+
+
+/* Expression	Check	Result
+10 > 5	kya 10 bara hai 5 se?	true
+10 < 5	kya 10 chhota hai 5 se?	false
+10 == 5	kya equal hain?	false
+10 != 5	kya equal nahi hain?	true
+10 >= 10	kya barabar ya bara hai?	true
+10 <= 5	kya chhota ya barabar hai?	false*/
+
+
+
+
+// var a = 10;
+// var b = 5;
+
+// console.log("a == b :", a == b);         // false
+// console.log("a === b :", a === b);       // false
+// console.log("a != b :", a != b);         // true
+// console.log("a !== b :", a !== b);       // true
+
+// console.log("a > b :", a > b);           // true
+// console.log("a < b :", a < b);           // false
+
+// console.log("a >= b :", a >= b);         // true
+// console.log("a <= b :", a <= b);         // false
+
+
+
+// var num1 = 2
+// var num2 = 0
+
+// if(num2 !== num1 ) {
+//     console.log( " you are right ")
+
+
+
+
+// var stdage =  (prompt("enter your are name"))
+// var stdage = Number (prompt("enter your are age"))
+
+// var name = "ali"
+// var age = 16;
+
+// if (stdage === name || stdage === age){
+//     console.log("you passed matric")
+// }
