@@ -229,7 +229,7 @@ Reason: - operator sirf numbers ke saath kaam karta hai, isliye JS "2" aur "3" k
 
 
 // alert (just for message)
-//prompt ("message with user information")
+// prompt ("message with user information")
 
 
 // prompt ("enter your name","abc")
