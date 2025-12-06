@@ -208,6 +208,25 @@ Reason: - operator sirf numbers ke saath kaam karta hai, isliye JS "2" aur "3" k
 
 //..................... chapter 9 prompt .....................
 
+// alert (3 - "2" + "2")
+
+// var sname = prompt ("enter your name")
+
+
+// if(sname !== "saad") {
+//     alert("welcome sir hasnain", sname)
+// }
+
+// var age = prompt ("enter yoyr age")
+
+// if(age < 10){
+//     console.log("you are young");
+    
+// }
+
+// is ma 10 se oper ka number do gya to chal gya wrong nhi chale gyae
+
+
 
 // alert (just for message)
 //prompt ("message with user information")
@@ -509,3 +528,172 @@ Value + type dono check karta hai. */
 // if (stdage === name || stdage === age){
 //     console.log("you passed matric")
 // }
+
+
+// console.log(7 != "7");
+
+// var a = 5;
+// var b = "7";
+// console.log(a <= b);
+// console.log(a <= b);
+
+
+// var x = 10;
+// var y = 10;
+// console.log(x >= y);
+
+
+
+
+// 1 Equal to (==)
+// sirf value check karta hai
+//  type (number , string) ignore karta hao
+
+// 5 === "5"  // true
+// 10 == 10 // true
+
+// Example 5 == "5" -> value same hai (5) string type ignore hogi  -> true
+
+
+
+
+// 2 strict equal (===)
+
+// value + type dono check karta hai
+
+// 5 === "5"  // false (number vs string)
+// 10 === 10  // true
+
+// === me agar type alag ho  -> false ho gya
+
+
+
+
+
+// 3 Not Equal (!=)
+/*Definition
+!= ka matlab hai “not equal”
+Yeh operator true return karta hai agar do values barabar na hon, aur false agar barabar hon. */
+
+
+/* console.log(10 != 5);      // true
+console.log(10 != 10);     // false
+console.log('5' != 5);     // false
+console.log(0 != false);   // false
+console.log('abc' != 'ABC'); // true
+*/
+
+
+
+
+
+
+// 4 strict Not equal (!==)
+
+// value + type dono barabar nhi ho  - >
+/* Strict Not Equal (!==)
+!== ka matlab hai strict not equal.
+Ye check karta hai:
+Value same na ho
+Type bhi same na ho
+Agar value ya type dono me se koi match na kare → true return hota hai
+Agar value aur type dono same hon → false return hota hai*/
+
+
+// Agar type alag hai → hamesha !== true dega
+// Agar type same aur value same → !== false dega
+
+
+// 5 !== "5"  // true (type alag)
+// 5 !== 5
+
+
+// var a = "ali";
+// var b = "noor";
+// console.log(a !== b);
+
+
+
+
+// 5 Greater Than (>)
+// Check karta hai ki left side bada hai ya nahi
+
+
+/* Greater Than ( > )
+
+> ka matlab hota hai “Is se zyada?”
+Agar left side wala number right side wale number se bada ho, to result true aata hai.
+Agar bada na ho, to false aata hai.*/
+
+// 5 > 3  // true
+// 2 > 7  // false
+// 10 > 10  // false
+
+
+// 6 Less Than (<)
+
+
+/* Less Than ( < )
+
+< ka matlab hota hai “Is se chhota?”
+Agar left side ka number right side se chhota ho, to true aata hai.
+Agar chhota na ho, to false aata hai.*/
+
+
+
+
+/*7 Greater Than or Equal (>=)
+Check karta hai ki left side bada ya barabar hai 
+
+Greater Than or Equal ( >= )
+>= ka matlab hota hai:
+“Left side number bada ho YA barabar ho.”
+Agar value bari ho → true
+Agar value barabar ho → true
+Agar chhoti ho → false*/
+
+
+// 5 >= 3
+// 5 >= 5
+// 2 >= 9
+// '8' >= 6
+// "b" >= "a"
+
+
+
+
+/* Less Than or Equal (<=)
+Check karta hai ki left side chhota ya barabar hai
+Less Than or Equal ( <= )
+
+<= ka matlab hota hai:
+"Left side number chhota ho YA barabar ho."
+Agar value chhoti ho → true
+Agar barabar ho → true
+Agar bari ho → false*/
+
+// 3 <= 5
+// 5 <= 5
+// 8 <= 2
+// '4' <= 10
+
+
+
+// condition1 && condition2
+// Dono conditions true honi chahiye, tabhi result true hoga.
+// Agar koi bhi condition false ho → result false
+
+/*let a = 5;
+let b = 10;
+
+console.log(a > 0 && b > 5);   // true && true → true
+console.log(a > 0 && b < 5);   // true && false → false
+console.log(a < 0 && b > 5);   // false && true → false
+console.log(a < 0 && b < 5);   // false && false → false
+
+
+
+true && true → true
+true && false → false
+false && true → false
+false && false → false */
