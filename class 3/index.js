@@ -224,7 +224,7 @@ Reason: - operator sirf numbers ke saath kaam karta hai, isliye JS "2" aur "3" k
     
 // }
 
-// is ma 10 se oper ka number do gya to chal gya wrong nhi chale gyae
+// is ma 10 se  oper ka number do gya to chal gya wrong nhi chale gyae
 
 
 
