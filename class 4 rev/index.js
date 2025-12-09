@@ -148,7 +148,7 @@
 // }
 
 
-// var marks = 50;
+// var marks = 50; 
 // var subject = "math";
 
 // if (marks >= 25) {
