@@ -130,7 +130,8 @@
 // // ...shift...
 
 // var arr = [1,2,3,4]
-// arr.shift ()      // remove  in first
+// arr.shift ()
+// arr.shift()      // remove  in first
 // console.log(arr);
 
 
@@ -147,20 +148,26 @@
 // ..splice....
 
 // var arr = [1,2,3,4,5]
-// console.log( arr.splice(1,3 ,"a" ));
-// console.log( arr)
+// console.log( arr.splice(1,5 ,"a" ));
+// // console.log( arr)
+
 // // 0 means index , 1 means how many elements will remove (quantity)
 
 // is ma jo element remove hoti ha wo show ho gye
 // agar ap doser console create kare gye to jo element rhe gye thi ho os ma show ho gye
 
 
+// lakin is ma jo element remove ho gya wo console ma show nhi ho gye
+// var arr = [10,20,30 ,40,50]
+// arr.splice(1,4)
+// console.log(arr)
+
 
 
 // slice....
 
 // var arr = ["a", "b" , "c" , "d" , "e" , "f"]
-// console.log(arr.slice(0,2))     
+// console.log(arr.slice(1,5))     
   
 // hamesha last ma ak kam ho gye 
 // b se start kare gye 4 tak yani , "b" "c" "d"
@@ -172,7 +179,7 @@
 
 //  var arr = ["a", "b",,]
 //  console.log(arr.indexOf("d")); // -1 means no value includes
-//  console.log(arr.includes("a"))  // includes return boolean
+//  console.log(arr.includes("al"))  // includes return boolean
  
 // agar array ka ander koi data na ho to ap os ko acess kar na ki kohieh kar gye to -1 he a gye 
 
@@ -234,9 +241,62 @@
 
 
 
-var arr = [1,2,3,4,[5,6,7,8], ["a", "b" , "c" , "d"]];
-console.log(arr [4][3]); // access nested array value
+// var arr = [1,2,3,4,[5,6,7,8], ["a", "b" , "c" , "d"]];
+// console.log(arr [5][1]); // access nested array value
 
+
+
+
+// nested array 
+
+// var arr = [
+//     ["apple", "mango"],
+//     ["red" , "yellow"]
+// ];
+
+
+// console.log(arr[0][0]); 
+// console.log(arr[1][1]);
+
+
+
+
+// Nested Array Example — Level 2 (Medium)
+
+// var students = [
+//     ["Ali",20],
+//     ["Noor",18],
+//     ["Saad", 28]
+// ];
+
+//     console.log( students[0][1]);
+//     console.log( students[2][0])
+    
+
+
+
+// var data = [
+//     [1,2,3],
+//     [4,5,[10,20,30]],
+//     [7,8, [["x","y"], 99]]
+// ];
+// console.log (data [0][2])
+// console.log(data [1][2][1]);
+// console.log(data[2][2][0][1]);
+// console.log(data[2][2][0]);
+
+
+
+
+
+// var twoDArray = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9,[2,"g",["c",10]]],
+// ];
+// console.log("twodArray",twoDArray)
+// console.log("length",twoDArray.length)
+// console.log(twoDArray[2][3][2][0])
 
 
 // chapter 13 and 14 not read
