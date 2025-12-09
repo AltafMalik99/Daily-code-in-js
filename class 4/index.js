@@ -1,12 +1,26 @@
 //Array
 
+// what is array
+// an array is a special variable that can store multiple values in a single variable
+// value are storedin square brackets []
+// each vslue an index string from 0 number 
+
+
+
 // var student = ["ahmed", "ali" , "anas" , "bilal" , "jawed"]
 
 // console.log(student)
 // console.log(student.length);
 
-// console.log (student[2])
+// console.log (student[1])
 
+
+// var student = ["ahmed" , "ali" , "noor" , "bilal" , "ahad"]
+
+// console.log(student)
+// console.log(student.length)
+
+// console.log(student [4])
 
 
 
@@ -19,29 +33,210 @@
 // console.log (student)
 
 
+
 // is ma hum value added kar sagta ha 
 
 
 
-var arr = []
+// primitive Data...
 
-arr [0] = "a"
-arr [1] = "b"
-
-console.log(arr);
-
-var name = "altaf"
-
-var names = name
-
-names = "change"
-
-console.log(name)
-console.log(names)
+// jo change nhi hote directly
+// number , string , boolean , undefined , null ,symbol , biglnt
 
 
 
-// video 27: 10
+// non-primitive Data type (referance type)
+// Non-Primitive types me complex values store hoti hain, jaise objects, arrays, functions.
+// change kar sagat ha
+// array , objact , function , 
+
+
+
+// javascript use in variable work
+
+
+// 1 number -- integers / floats
+// 2 string -- text
+// 3 boolean -- true /false
+// 4 undefined -- variables ka value nhi diya
+// 5 null -- intentionall empty value
+// 6 symbol -- unique identifier rerely use hoti hai 
+// 7 Biglnt -  bohot bare number
+// 8 array -- multiple value
+// 9 Function – code block as value
+
+
+
+
+
+
+
+// var arr = []
+
+// arr [0] = "a"
+// arr [1] = "b"
+
+// console.log(arr);
+
+// var name = "altaf"
+
+// var names = name
+
+// names = "change"
+
+// console.log(name)
+// console.log(names)
+
+
+
+// var arr = ["a" , "b"]
+// var newArr = arr
+
+// newArr = ["C" , "d"]  // mutable
+// // copy by reference
+// // shallow copy
+// console.log(arr)
+// console.log(newArr)
+
+
+
+// var arr = ["a" , "b"]
+// var newArr = arr
+
+// newArr = ["x" , "y"]
+
+// console.log(arr)
+// console.log(newArr)
+
+
+
+// ...push ...
+
+// var arr = [1,2,3,4,5]
+
+// arr.push(6)            // add in last
+// console.log(arr);
+
+
+// ...unshift...
+
+// var arr = [1,2,3,4,5]
+// arr.push(6)
+// arr.unshift(0)
+// console.log(arr);    // add a start 
+
+
+
+// // ...shift...
+
+// var arr = [1,2,3,4]
+// arr.shift ()      // remove  in first
+// console.log(arr);
+
+
+// ..pop ....
+
+// var arr = [1,2,3,4,5]
+// arr.pop()
+// arr.pop()          // remove a last 
+// console.log(arr);
+
+
+
+
+// ..splice....
+
+// var arr = [1,2,3,4,5]
+// console.log( arr.splice(1,3 ,"a" ));
+// console.log( arr)
+// // 0 means index , 1 means how many elements will remove (quantity)
+
+// is ma jo element remove hoti ha wo show ho gye
+// agar ap doser console create kare gye to jo element rhe gye thi ho os ma show ho gye
+
+
+
+
+// slice....
+
+// var arr = ["a", "b" , "c" , "d" , "e" , "f"]
+// console.log(arr.slice(0,2))     
+  
+// hamesha last ma ak kam ho gye 
+// b se start kare gye 4 tak yani , "b" "c" "d"
+// slice make a new array
+//  0 and 2 are indexes
+
+
+
+
+//  var arr = ["a", "b",,]
+//  console.log(arr.indexOf("d")); // -1 means no value includes
+//  console.log(arr.includes("a"))  // includes return boolean
+ 
+// agar array ka ander koi data na ho to ap os ko acess kar na ki kohieh kar gye to -1 he a gye 
+
+
+
+
+// var myName = "Altaf"
+// console.log(myName.indexOf ("l"));
+// console.log(myName.includes ("a"));   // ya ma jo value ha wo value lakhe gye to true a gye agar koi or value jo is ma nhi ha false ay gye
+
+
+
+// ES6 
+
+// var arr = ["a" ,"b" ,"c" ,"d"]
+// var newArr = ["a","b","c","d"]
+// console.log(newArr);   // copy by referance
+
+
+
+
+// var arr = ["a" ,"b" ,"c" ,"d"]
+// var newArr = Array.from (arr)   // ES6 method  // make a shallow copy
+// console.log(newArr);
+
+
+
+
+//  var arr = ["a" ,"b" ,"c" ,"d"]
+// var newArr = [...arr , "malik" , "altaf"]   // spread operator
+// console.log(newArr);
+
+ 
+
+/*Iska kaam hota hai array ya object ko spread (phaila) dena, yani unke andar ki values ko separate kar den ya hamesha teen dot se show kar ti hai */
+
+
+// let a = [10, 20, 30];
+// let b = [...a , 40];
+
+// console.log(b);
+
+
+
+// marge arrays
+
+// var x = [1,2];
+// var y = [3,4]
+
+// var z = [...x, ...y];
+// console.log(z);
+
+
+// spread operator in object
+
+// var obj1 = { name:"Ali", age :20};
+// var obj2 = {...obj1 , city :"karachi"};
+// console.log(obj2);
+
+
+
+var arr = [1,2,3,4,[5,6,7,8], ["a", "b" , "c" , "d"]];
+console.log(arr [4][3]); // access nested array value
+
 
 
 // chapter 13 and 14 not read
