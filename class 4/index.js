@@ -283,8 +283,14 @@
 // console.log(obj2)
 
 
-var obj1 = {name}
+// var obj1 = {name: "noor" , age : 20}
+// var obj2 = {...obj1 , city : "punjab"}
+// console.log(obj2);
 
+
+var obj1 ={name : "altfa" , age :20 }
+var  obj2 = {...obj1 , city : "kpk"}
+console.log(obj2);
 
 
 
