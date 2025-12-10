@@ -288,33 +288,16 @@
 // console.log(obj2);
 
 
-var obj1 ={name : "altfa" , age :20 }
-var  obj2 = {...obj1 , city : "kpk"}
-console.log(obj2);
+
+// var obj1 = {name: "noor" , age : 20 ,}
+// var obj2 = {...obj1 , city : "newyour" }
+// console.log(obj2);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var arr = [1,2,3,4,[5,6,7,8], ["a", "b" , "c" , "d"]];
-// console.log(arr [5][1]); // access nested array value
+var arr = [1,2,3,4,[5,6,7,8], ["a", "b" , "c" , "d"]];
+console.log(arr [4][1]); // access nested array value
 
 
 
