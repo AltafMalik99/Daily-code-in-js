@@ -692,7 +692,7 @@ console.log(a < 0 && b > 5);   // false && true → false
 console.log(a < 0 && b < 5);   // false && false → false
 
 
-
+ 
 true && true → true
 true && false → false
 false && true → false
