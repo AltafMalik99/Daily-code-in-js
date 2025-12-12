@@ -12,6 +12,7 @@
 // console.log(student)
 // console.log(student.length);
 
+
 // console.log (student[1])
 
 
