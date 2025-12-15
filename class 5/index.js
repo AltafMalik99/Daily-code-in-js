@@ -42,6 +42,16 @@
 use oti ha jab tak koi condtion true ho */
 
 
+
+
+var twoDarray = [[1,2,3] ,[4,5,6],[7,8,9]]
+
+for(var i=0; i<twoDarray.length; i++){
+    console.log(twoDarray[i]);
+    
+}
+
+
 // for(var i=0;i<10;i++){
 //     console.log("hello world");
     
@@ -54,5 +64,22 @@ use oti ha jab tak koi condtion true ho */
 
 
 // ensalzation , condation ,increment ya decrment deti ha for ka ander
+
+
+// table..
+
+// var num = prompt("enter a number", '6')
+// for (var i=1;i<=10;i++){
+//     console.log( num  + ' x' +' * ' + i + ' = ' + num*i);
+    
+// }
+
+
+
+// for (var i=1;i<11;i++){
+//     console.log('5 x ' + i + ' = ' + 5*i)
+// }
+
+
 
 // sir ibrahim 40,10 sir muzammil 41
