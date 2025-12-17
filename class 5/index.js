@@ -40,16 +40,19 @@
 // what is for loop 
 /* for loop ek aisa loop hai jo code ko bar bar repeat karne ke liye use
 use oti ha jab tak koi condtion true ho */
+  
 
 
 
 
-var twoDarray = [[1,2,3] ,[4,5,6],[7,8,9]]
+// var twoDarray = [[1,2,3] ,[4,5,6],[7,8,9]]
 
-for(var i=0; i<twoDarray.length; i++){
-    console.log(twoDarray[i]);
-    
-}
+// for(var i=0; i<twoDarray.length; i++){
+//     for (let j = 0; j < twoDarray[i].length; j++){
+//     console.log(twoDarray[i][j]);
+//     }
+
+// }
 
 
 // for(var i=0;i<10;i++){
@@ -82,4 +85,19 @@ for(var i=0; i<twoDarray.length; i++){
 
 
 
-// sir ibrahim 40,10 sir muzammil 41
+// var cites =  ["karachi" , "lahore" , "punjab"];
+// var city=prompt ("enter your city name", "karachi")
+// var found =false;
+// for(var i=0;i<cites.length;i++){
+// if(city === cites [i]){
+
+//     console.log(city + " found");
+//     found = true;
+//     break;
+
+// }
+
+// } if(!found){
+//     console.log("not found")
+// }
+// note without if ka else nhi chal sakta
