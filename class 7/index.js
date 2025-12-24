@@ -16,4 +16,6 @@
 // is ma 1 or 0 ka demayan number a gye
 
 
+
+
 // video 19
