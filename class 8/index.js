@@ -1,1 +1,1 @@
-// class 8
+var text = prompt("Hello" , "wordl")
