@@ -71,3 +71,122 @@ Aur string return karta hai */
 
 // console.log(new Date().toLocaleString('en-US', { hour12: true }));
 
+
+// .......chapter no 32... Extracting parts of the date and time
+
+/* curremt date ,time se year , month , day ,hours , minutes , seconds alag alag niklana
+js ma ya sab date object se hoti hai */
+
+
+// var now  = new Date();
+
+// var year = now.getFullYear();
+// var month = now.getMonth() + 1;
+// var day = now.getDate(); 
+// var week = now.getDay();
+
+// console.log("year=>",year);
+// console.log("month=>",month);
+// console.log("day=>",day);
+// console.log("week=>", week);
+
+// var hours = now.getHours();
+// var minutes = now.getMinutes();
+// var second = now.getSeconds();
+// var ms = now.getMilliseconds();
+
+// console.log(hours);
+
+
+
+// var now = new Date()
+
+// let hours = now.getHours();     // 0–23
+// let minutes = now.getMinutes(); // 0–59
+// let seconds = now.getSeconds(); // 0–59
+// let ms = now.getMilliseconds(); // 0–999
+
+// console.log("hours",hours);
+// console.log("minutes",minutes);
+// console.log("second",seconds);
+// console.log("millisecond", ms)
+
+
+// var now = new Date
+
+// console.log("month=>",now.getMonth())
+// console.log("year=>", now.getFullYear())
+// console.log("date=>", now.getDate())
+// console.log("Hours=>", now.getHours())
+// console.log("Minutes=>", now.getMinutes())
+// console.log("seconds=>", now.getSeconds())
+// console.log("millisecond=>", now.getMilliseconds());
+
+// var now = new Date()
+// var hours24 = now.getHours();
+// var ampm = hours24 >= 12 ? "PM" : "AM";
+// var hours12 = hours24 % 12 || 12;
+// console.log(hours12 + "" + ampm  );
+
+
+
+
+// ....chapter.... 33.... Specifying a date and time......
+
+/* js me date objact ka use current date & time ke liye hoti hai
+lakin kabhi- kabhi hume specific date aur time set karna hoti hai jaise
+ Birtday ya anniversary ka date kise event ka schedule */
+
+
+// Date object ke zariye apni marzi ka date & time create karna aur usko program me use karna.
+
+
+// var date = new Date ("2025-12-30t12:13:00")
+// console.log(date);
+
+
+// Individual Components → year, month, day, hours, minutes, seconds
+// var data = new Date(2025,11,30,17,45,0)
+// console.log(data);
+
+
+
+// let birthday = new Date("2025-12-31T00:00:00");
+// let now = new Date();
+
+// let diff = birthday - now; // difference in milliseconds
+// let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+// console.log("Days left for birthday:", days);
+
+
+
+// ...chapter 34... Changing elements of a date and time...
+
+
+/* kisi date ka year , month , day , hours , change karna 
+schedule update karna ya alarm set karna date based calculation ke liye */
+
+// var date =  new Date ("2025-12-30T10:30:00");
+// console.log("original date" , date);
+
+
+// // change year , month , day
+
+// date.setFullYear(2026);
+// date.setMonth(0);
+// date.setDate(15);
+
+// console.log("updated date", date);
+
+// // change time
+
+// date.setHours(20);
+// date.setMinutes(45);
+// date.setSeconds(30);
+
+// console.log("updated date & time", date)
+
+
+
+
