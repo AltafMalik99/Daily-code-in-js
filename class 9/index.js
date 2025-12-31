@@ -13,6 +13,21 @@ function code ko clean aur reusable banate hai*/
 
 
 
+// ...chapter 36... Functions: Passing them data
+
+
+// function sum(a,b){
+//     console.log(a+b);
+// }
+// sum(5,3)
+
+
+
+// Note , function ko jo data dete ha = argument 
+// function ke ander jo naam bante hai = parameter
+// is process ka naam = passing data to function
+
+
 // function sum(a,b) { // paremeters
 //     console.log(a+b)
 // }
@@ -24,6 +39,8 @@ function code ko clean aur reusable banate hai*/
 
 
 
+// chapter 37.. function passing data back from them.....
+
 
 // resturn...
 
@@ -34,6 +51,8 @@ function code ko clean aur reusable banate hai*/
 // console.log(abc);
 
 
+
+
 // function  sum(a,b){
 
 //     return a+b
@@ -42,11 +61,79 @@ function code ko clean aur reusable banate hai*/
 // console.log(abc);
 
 
-function sum(a,b) {
+
+// function print (a,b) {
+//     a+b
+//     return 1;
+// }
+// console.log(print(3,3));
+
+
+
+// chapter 38 .. function local vs global variables
+
+// function ka ber jo variable bane rha ho wo global varible ha
+
+
+// variable ke 2 types ha is ma
+
+// 1 Global variable 
+// 2 Local variable
+
+
+// 1 Global variable har jaga kaam karta hai
+
+// var x = 10 ;
+// function show(){
+//     console.log(x);
+// }
+// show();
+// console.log(x)
+
+
+// function ka ander bhi mill rah hai
+// function ka bahar bhi mill rha hai
+// is ko kehte hain global scope
+
+// .....
+
+// 2 local variable (sirf fubction ke ander)
+// function ka ander banaya jaya
+// sirf usi function ke ander kaam karta hai
+// bahar access nhi hoti
+
+
+// function test(){
+//     var y = 5; 
+//     console.log(y);
+// }
+// test();
+// console.log(y)
+
+// bahar wali line error degi kyun ke y sarif function ke ander zinda ha
+
+
+
+function sum (a,b){
     return a+b
 }
-var abc=sum(10,20)
-console.log(abc)
+
+function div(a,b){
+     return a/b
+}
+
+function mul(a,b){
+     return a*b
+}
+
+function sub(a,b){
+     return a-b
+}
+
+
+
+sum(4,4)
+
 
 
 // function great(){
@@ -86,4 +173,4 @@ console.log(abc)
 // console.log("my name is malik Aftab");
 // console.log("my name is malik Hamza");
 // }
-// nice("ayan")
+// nice("Saad")
