@@ -114,25 +114,44 @@ function code ko clean aur reusable banate hai*/
 
 
 
-function sum (a,b){
-    return a+b
-}
+// function sum (a,b){
+//     return a+b
+// }
 
-function div(a,b){
-     return a/b
-}
+// function div(a,b){
+//      return a/b
+// }
 
-function mul(a,b){
-     return a*b
-}
+// function mul(a,b){
+//      return a*b
+// }
 
-function sub(a,b){
-     return a-b
-}
+// function sub(a,b){
+//      return a-b
+// }
 
 
 
-sum(4,4)
+// sum(4,4)
+
+
+
+// function add (a ,b = 2) { // default parameter
+//      console.log(a+b);
+// }
+// add(3);
+
+
+// var number = 234
+// function test(){
+//      alert(number)
+// }
+// test()
+
+
+
+
+
 
 
 
