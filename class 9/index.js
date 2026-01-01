@@ -70,7 +70,8 @@ function code ko clean aur reusable banate hai*/
 
 
 
-// chapter 38 .. function local vs global variables
+// chapter 38 .... function local vs global variables
+
 
 // function ka ber jo variable bane rha ho wo global varible ha
 
@@ -150,10 +151,48 @@ function code ko clean aur reusable banate hai*/
 
 
 
+// function myFun(a,b){
+//      return a + b
+// }
+// var num = myFun(3,5)
+// console.log(num+2);
+
+
+
+//  8 return ho or jo log ma 2 thi wo plus ho gya is lay output 10 ho gya
 
 
 
 
+// function addData(a){
+//      a+2;
+//      return 2;
+// }
+// var result=addData(5);
+// if(result){
+//      console.log("data recvied");
+// }else{
+//      console.log("error")
+// }
+
+
+
+
+
+
+
+// sir ibrahim 1:10
+// sir muzamil 37
+
+
+
+
+
+
+
+
+
+// extra code.
 
 // function great(){
 //     console.log("Hello, Altaf");
@@ -192,4 +231,4 @@ function code ko clean aur reusable banate hai*/
 // console.log("my name is malik Aftab");
 // console.log("my name is malik Hamza");
 // }
-// nice("Saad")
+// nice("Saad") 
