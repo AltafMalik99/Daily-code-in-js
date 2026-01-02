@@ -192,6 +192,12 @@ function code ko clean aur reusable banate hai*/
 // console.log(a); // output5
 
 
+// hello()
+// function hello(){
+//     console.log("hello world");
+    
+// }
+// pure function js uper le jati hai
 
 
 
@@ -207,13 +213,11 @@ function code ko clean aur reusable banate hai*/
 
 
 
+
+
+
 // sir ibrahim 1:10
 // sir muzamil 37
-
-
-
-
-
 
 
 
