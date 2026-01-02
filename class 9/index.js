@@ -177,6 +177,32 @@ function code ko clean aur reusable banate hai*/
 
 
 
+//... hoisting 
+
+/* js code chalane se pehle variable aur function ko upar consider kar leti hai
+ (memory me reserve kar leti hai)
+
+ pehle memory allocate hoti hai
+ bad mein code run hoti hai */
+
+
+// console.log(a);  // undefined
+
+// var a = 5 ;
+// console.log(a); // output5
+
+
+
+
+
+//  var abc =10 ;
+//  function print (){
+//     console.log(abc);
+//     var abc = 30
+//     console.log(abc)
+// }
+// print()
+
 
 
 
