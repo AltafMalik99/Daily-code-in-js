@@ -115,6 +115,49 @@ function code ko clean aur reusable banate hai*/
 
 
 
+// var Lname = "global variable"
+// function test (myName) {
+//     var myName = "local variable"
+//     console.log(Lname,myName);
+// }
+// test()
+
+// is process ko scope chain kehte hai
+
+
+// var name = "first name"
+
+// function fun(){
+//     console.log(name);
+// }
+// var name = "name changed"
+// fun()
+
+
+
+// var name = "first name "
+// function fun(){
+//     var name = ("name change")
+    
+//     console.log(name);
+// }
+// fun()
+
+
+/* js check kar ta ha function ke ander name dekha "name change" print ho gya 
+global variable ignore ho gaya is lay otput name change ho gya */
+
+
+// console.log(uname);
+// var uname = "altaf"
+
+
+/* Block Scope kya hai?
+
+Block scope wo scope hai jo curly braces { } ke andar hota hai.
+Variables jo let ya const se declare hote hain, sirf us block ke andar accessible hote hain.*/
+
+
 // function sum (a,b){
 //     return a+b
 // }
