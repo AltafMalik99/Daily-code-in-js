@@ -221,4 +221,33 @@ Left-to-right + and -
 // var name = prompt ("enter you are name", "Altaf")
 // console.log(name.toUpperCase())
 
+// parseInt...
 
+// var num1 = parseInt("123")
+// console.log(num1);
+// console.log(typeof num1)
+
+
+// string ko number kar de na
+
+// var num2 = parseInt("123abc");
+// console.log(num2); // 123
+
+// number ko string ma kar de na
+
+// var num = 123 ;
+// var str = String(num);
+// console.log(str);
+// console.log(typeof str)
+
+
+
+// chapter 10 if statements...
+
+// var flag = false
+// if(!flag){
+//     console.log("hello world");
+    
+// }
+
+// video 41
