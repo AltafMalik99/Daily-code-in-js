@@ -46,6 +46,34 @@
 // var num = 5
 // console.log(12+num);
 
-// var a = 23
+// % modules ya division ka baqi hissa (remainder retiur karta hai)
+
+// var a = 31
 // var b = 10
 // console.log(a%b);
+
+// console.log(10%3);
+
+/* 10 ÷ 3 = 3
+3 × 3 = 9
+10 − 9 = 1 (remaider)*/
+
+// console.log(8%2); // 0 even number
+// console.log(9%2) // 1 odd number
+// console.log(17%5) // 2
+
+
+// chapter.... 6 Math expressions Unfamiliar operators
+
+// var a = 3; // 3
+// a++ // 3  => 4
+// console.log(a++); // 4 => 5
+// console.log(++a) // 6
+
+
+var x = 3;
+var y=x++;
+console.log(x+y);
+
+/*y ko value mili 3
+phir x ban gaya 4 */
