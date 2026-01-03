@@ -65,15 +65,48 @@
 
 // chapter.... 6 Math expressions Unfamiliar operators
 
+
+// post-increment
+
+// var x = 5;
+// var y = x++; // pehle value use phir barhao
+// console.log( x,y); // 6 ,  5
+
+
+// pre increment
+
+// var a = 5;
+// var b = ++a; pehle barhao phir use
+// console.log(a,b); // 6 , 6
+
+
+/*
+ a = 5      // initial
+++a        // pehle a = 6
+b = a      // b me assign ho gaya 6
+
+*/
+
+
+// var a = 2;
+// console.log(a++);
+// console.log(a++)
+
+
 // var a = 3; // 3
 // a++ // 3  => 4
 // console.log(a++); // 4 => 5
 // console.log(++a) // 6
 
 
-var x = 3;
-var y=x++;
-console.log(x+y);
+// var x = 3;
+// var y=x++;
+// console.log(x+y);
 
 /*y ko value mili 3
 phir x ban gaya 4 */
+
+
+
+
+// Decrement operator
