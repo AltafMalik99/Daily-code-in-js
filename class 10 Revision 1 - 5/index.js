@@ -110,3 +110,115 @@ phir x ban gaya 4 */
 
 
 // Decrement operator
+
+// var x = 5;
+// x--
+// console.log(--x);
+// console.log(x--);
+
+
+// post
+
+// var x = 5 ;
+// var y = x--; //y ko x ki current value milti hai → y = 5
+// console.log(x,y);
+
+// pre
+
+// var a = 5;
+// var b = --a;
+// console.log(a,b); // 4,4
+
+
+// chapter....... 7 Math expressions Eliminating ambiguity
+
+// Bodmas Rule ko follow kare gay
+
+/* parentheses() hamesha sab se pehle slove hoti hai
+Multiplcation * aur Division / solve hoti hai
+Addition + aur subtraction - left to right hoti hai */
+
+
+// var result = 2 + 2  * 4;
+// console.log(result);
+
+
+// var result = (2+3) * 4
+// console.log(result); // 20
+
+// pehle (2+3) = 5
+// phir 5 * 4 = 20
+
+// var x = 10 - 2 * 3 + 4 / 2;
+// console.log(x);
+
+/* * and / pehle
+2*3 = 6
+4/2 = 2
+Expression ab: 10 - 6 + 2
+Left-to-right + and -
+10 - 6 = 4
+4 + 2 = 6
+ Output: 6*/
+
+
+// var a,b,c;
+// a = b = c = 5; // right to left
+// console.log(a,b,c); // 5,5,5
+
+
+// chapter 8..... concatenating text string.....
+
+// js ma + operator use hota hai string ko join karna ke liye
+
+// var firstName = "Altaf";
+// var lastName = " Malik";
+// var fullName = firstName + " " + lastName;
+// console.log(fullName);
+
+// var name = "Altaf";
+// var age = 18
+// console.log(name + "is " + age  + "years old");
+
+
+// agar number aur string + se join ho number string me convert ho jata hai
+
+// console.log("Age " + 5 +3);
+// console.log("Age " + (5+3));
+
+
+// chapter... 9 prompts
+
+// prompt ek built js function hai 
+// user se input lene ke liye use hoti hai
+// browser ma popup box opern karta hai jahan user type kar sakta hai
+
+
+// var name = prompt("Enter your name");
+// console.log("Hello "+name + " welcome to imtiaz");
+
+
+// var age = prompt("enter your age");
+// console.log("you are " + age + " year old ");
+
+
+// var num1 = prompt("enter  first number")
+// var num2 = prompt("enter a second number");
+// var sum = Number(num1) + Number(num2)
+// console.log("sum=>" + sum);
+
+// let x = prompt("Enter first number:"); // suppose user enters 4
+// let y = prompt("Enter second number:"); // suppose user enters 5
+// console.log(Number(x) * Number(y));
+
+
+
+
+// var name = prompt ("enter your name", "enter ",20)
+// console.log(name-10);
+
+
+// var name = prompt ("enter you are name", "Altaf")
+// console.log(name.toUpperCase())
+
+
