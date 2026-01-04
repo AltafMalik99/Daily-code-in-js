@@ -242,12 +242,132 @@ Left-to-right + and -
 
 
 
-// chapter 10 if statements...
+// chapter 10 if statements......
 
 // var flag = false
 // if(!flag){
 //     console.log("hello world");
     
 // }
+
+// if (!false) {
+// console.log("allow");
+// }
+// else {
+//     console.log("not allow")
+// }
+
+
+// var num = 9
+// if(num>20){
+//     console.log("hello world");
+
+// } else if (num>=10){
+//     console.log("world hello");
+// }
+
+// else{
+// console.log("invalid!")
+// }
+
+
+
+// var marks = 75;
+
+// if (marks >= 50){
+//     console.log("A grade");
+
+// } else if (marks >=60) {
+//     console.log("B grade");
+
+// }else{
+//     console.log("fail")
+// }
+
+
+
+
+// var age = Number(prompt("enter a your age"))
+// if(age >=18){
+//     console.log("allow");
+// } else{
+//     console.log("not allow")
+// }
+
+
+// var marks = Number(prompt("Marks likho:"));
+
+// if (marks >= 40) {
+//     console.log("Pass");
+// } else {
+//     console.log("Fail");
+// }
+
+
+// var x = prompt("enter a name")
+// if(x== "pakistan"){
+//     alert ("correct")
+// }
+// if(x!=="karachi"){
+//     alert("wrong")
+// }
+
+// var x = prompt("enter a name");
+// if(x === "pakistan"){
+// }else{
+//     alert("wrong")
+// }
+
+
+// chapter 11 comparison operators...
+
+// console.log(5=="5"); // true value same
+// console.log(5==="5"); // false 
+// console.log(10!=5); // true
+// console.log(3!=="3");
+
+
+// 1 equal (==) sarf value check karta hai typr ignore karta hai
+
+// console.log( 5 == '5'); is laiye true a rha ha 
+
+//2 strict equal (===) value type dono check karta hai
+// console.log(5==='5'); false
+// console.log(5 === 5); // true
+
+
+
+// 3 Not equal (!=) sirf value compare karta ha agar value barabar nhi true
+// console.log(5!='5'); //true
+// console.log(5!=5);// false
+
+
+// 4 strict Not equal (!==) value + type dono check karta hai agar same type + value nhi true
+
+// console.log(5!=="5");
+// console.log(5!==5);
+
+
+// 5 Greater than (>) / less than (<) do numbers ka size compare karta hai
+// kay pehla number doosre se bara ha 
+// console.log(10>5);
+
+// kay pehle number dooser se chhota hai
+// console.log(2<5);
+
+
+// 6 Greater or equal (>=) / less or equal (<=)
+// kay pehle number dooser se bara ya barabar hai
+// yani check karta hai bada ya equal dono condition
+
+// console.log(5>=3); true
+// 5 bara ya barabar hai 3 ke 
+
+// console.log(7>=7);
+// 7 bara ya baraber hai 7 ke
+
+// console.log(2>=5);
+// 2 bara ya baraber ha 5 ke
+
 
 // video 41

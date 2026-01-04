@@ -92,6 +92,8 @@ function code ko clean aur reusable banate hai*/
 // console.log(x)
 
 
+  
+
 // function ka ander bhi mill rah hai
 // function ka bahar bhi mill rha hai
 // is ko kehte hain global scope
@@ -99,6 +101,7 @@ function code ko clean aur reusable banate hai*/
 // .....
 
 // 2 local variable (sirf fubction ke ander)
+
 // function ka ander banaya jaya
 // sirf usi function ke ander kaam karta hai
 // bahar access nhi hoti
