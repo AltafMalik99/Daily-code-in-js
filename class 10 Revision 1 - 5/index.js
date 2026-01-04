@@ -370,5 +370,54 @@ Left-to-right + and -
 // 2 bara ya baraber ha 5 ke
 
 
+// chapter 13 testing of conditions
 
-// video 41
+// && dono conditions true ho tabhi true hoti hai agar aik be ghalat ho result false
+
+// console.log(false && true);
+
+
+// var age = 20;
+// var cnic = true;
+// if(age >= 12 && cnic == true){
+//     console.log("Entry allowed")
+// }else{
+//     console.log("not allwed")
+// }
+
+// var a = 5 ;
+// var b = 10;
+// if(a > 2 && b < 20){
+//     console.log("yes");
+    
+// }
+
+// console.log(false || true);
+// or is ko ak be true mil gay to condtion true ho jay gya 
+
+
+// var city = "karachi"
+// if(city >= "karachi" || city == "lahore"){
+//     console.log("Delivery available");
+
+// }else{
+//     console.log("Delivery not availablr")
+// }
+
+// var a = 5;
+// var b = 10;
+// if(a > 10 || b == 10){
+// console.log("yes");
+
+// }
+
+// var a = 10;
+// var b = 20;
+
+// if (a == 10 && b != 15) {
+//     console.log("Correct");
+// } else {
+//     console.log("Wrong");
+// }
+
+// video 58
