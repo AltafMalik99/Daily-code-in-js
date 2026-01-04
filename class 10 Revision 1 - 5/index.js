@@ -370,4 +370,5 @@ Left-to-right + and -
 // 2 bara ya baraber ha 5 ke
 
 
+
 // video 41
