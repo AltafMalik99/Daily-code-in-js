@@ -273,7 +273,7 @@ Left-to-right + and -
 
 
 // var marks = 75;
-
+// var marks = +prompt("enter a number","Check your grage")
 // if (marks >= 50){
 //     console.log("A grade");
 
@@ -319,7 +319,7 @@ Left-to-right + and -
 // }
 
 
-// chapter 11 comparison operators...
+// chapter .....11 comparison operators...
 
 // console.log(5=="5"); // true value same
 // console.log(5==="5"); // false 
@@ -432,6 +432,57 @@ Left-to-right + and -
 
 
 // chapter .....14 if statement nested
+
+// nested if ka matlab ek if ke ander doosra if
+// pehle condtion check hoti hai uske ander doosri condtion check hoti ha
+
+
+
+
+// var age = 20;
+// var cnic = true;
+
+// if(age >= 18){
+//     if(cnic == true){
+//         console.log("allow");
+        
+//     }
+// }
+
+
+// var marks = 85;
+
+// if(marks >= 33){
+//     if(marks >= 20 ){
+//         console.log("A grade");
+
+//     }
+// }
+
+
+
+
+var marks = +(prompt("enter your marks"));
+
+if(marks >= 80){
+    console.log("A grade");
+}
+
+else if (marks >=60){
+    console.log("B grade")
+}
+
+else if (marks >= 40){
+ console.log("C grade")
+}
+
+else if (marks >= 33){
+    console.log("C grade")
+}
+
+else {
+    console("fail")
+}
 
 
 
