@@ -437,6 +437,56 @@ Left-to-right + and -
 // pehle condtion check hoti hai uske ander doosri condtion check hoti ha
 
 
+// var marks = 85;
+
+// if(marks >= 33){
+//     console.log("pass");
+//     if (marks >= 80){
+//         console.log("A grade")
+//     }
+// }
+
+
+
+// var username = "Ali";
+// var password = "123";
+
+// if(username === "Ali"){
+//     if(password === "123"){
+//         console.log("login sucessfull ")
+   
+//     }else {
+//     console.log("wrong password")
+// }
+// }
+// else {
+//     console.log("wrong username")
+// }
+
+
+
+
+
+// var username = prompt("enter a  username")
+// var password = prompt("enter a password")
+
+
+// var correctUser = "ali";
+// var correctPass = "123";
+
+// if(username === correctUser){
+//     if(password === correctPass){
+//         console.log(("login sucessful"));
+        
+//     } else {
+//         console.log("wrong password")
+//     }
+// }
+// else {
+//     console.log("wrong username")
+// }
+
+
 
 
 // var age = 20;
@@ -460,29 +510,83 @@ Left-to-right + and -
 // }
 
 
+// var marks = +prompt("Enter a marks")
+
+// if (marks > 100 || marks < 0){
+//     console.log("invaild marks");
+// }
+
+// else if (marks >=80){
+//     console.log("A+ grade")
+// }
+
+// else if (marks >=70 ){
+//     console.log("A grade")
+// }
+
+// else if (marks >= 60){
+//     console.log("B grade")
+// }
+
+// else if(marks >= 50){
+//     console.log("C grade")
+// }
+
+// else if (marks >= 33) {
+//     console.log("E grade")
+// }
+// else {
+//     console.log("fail")
+// }
 
 
-var marks = +(prompt("enter your marks"));
 
-if(marks >= 80){
-    console.log("A grade");
-}
 
-else if (marks >=60){
-    console.log("B grade")
-}
+// chapter......... 15.. Array
 
-else if (marks >= 40){
- console.log("C grade")
-}
+// var arr = ["ayan","aman","umer","altaf","noor"]
+// console.log(arr[4]);
 
-else if (marks >= 33){
-    console.log("C grade")
-}
 
-else {
-    console("fail")
-}
+
+// var arr = [1,2,3,"malik",false, [4,5,6,,8,9,10] ]
+// console.log(arr[5][2]);
+
+
+// chapter 16..... Adding and removing elements
+
+// push add ma value add kar de gay
+
+// var arr = ["apple","banana","mango"]
+// arr.push("orang")
+// console.log(arr);
+
+
+// unshift start ma value add kar de gya
+
+// var arr = ["apple","banana","orang"]
+// arr.unshift("mango")
+// console.log(arr);
+
+
+
+// pop last ma se value remove kar de gya
+
+// var arr = ["ali","noor","ahmad","hamza"]
+// arr.pop()
+// console.log(arr);
+
+
+
+// shift.  start ma value remove kar de gya
+
+// var arr = [1,2,3,4,5]
+// arr.shift()
+// arr.shift()
+// console.log(arr);
+
+
+// slice... copy banata hai array ko change nhi karta
 
 
 
