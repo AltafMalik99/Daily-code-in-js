@@ -370,7 +370,7 @@ Left-to-right + and -
 // 2 bara ya baraber ha 5 ke
 
 
-// chapter 13 testing of conditions
+// chapter...... 13... testing of conditions
 
 // && dono conditions true ho tabhi true hoti hai agar aik be ghalat ho result false
 
@@ -419,5 +419,21 @@ Left-to-right + and -
 // } else {
 //     console.log("Wrong");
 // }
+
+// if(" "){
+//     console.log("truthy value");
+
+// }else{
+//     console.log("falsy value")
+// }
+
+
+// console.log( true || "false");
+
+
+// chapter .....14 if statement nested
+
+
+
 
 // video 58
