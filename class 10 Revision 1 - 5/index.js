@@ -618,11 +618,30 @@ element add bhi karta hai */
 
 // chapter. 18.... for loop.......
 
+// jab same kaam baar baar karvan ho
+//  start ; condtion ; update
+// start kahase 
+// condtion kab tak chalna
+// update +1/ -1 karta rehta hai
+
 // for(var i=0; i <5; i++){
 // console.log(i);
 
 // }
 
- for(var i = 2 ; i > 5; ){}
+
+// for (var i = 5; i >= 1; i--){
+// console.log(i);
+
+// }
+
+
+// var fruits = ["apple","mango","banana","orange"]
+// for (var i = 0; i < fruits.length; i++)
+
+//     console.log(i);
+    
+
+
 
 // video 58
