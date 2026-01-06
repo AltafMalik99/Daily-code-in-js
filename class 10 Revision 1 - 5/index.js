@@ -586,9 +586,43 @@ Left-to-right + and -
 // console.log(arr);
 
 
-// slice... copy banata hai array ko change nhi karta
+
+// var fruits = ["apple","orange","grapes", "mango","watermelon"]
+// console.log(fruits[fruits.length-1]);
+// - ma hamesha value end se start hoti ha
 
 
 
+// splice...
+/* array ka ander change karta hai element delete bhi karta hai
+element add bhi karta hai */
+
+// var fruits = ["apple","orange","grapes", "mango","watermelon"]
+// fruits.splice(2,0,"banana")
+// console.log(fruits);
+
+// 
+// slice... array ka hissa copy karta hai original array ko change nhi karta
+
+
+// var fruits = ["apple","orange","grapes", "mango","watermelon"]
+
+// var slicejuice=fruits.slice(1,2);
+// console.log(slicejuice);
+
+// var fruits = ["apple","mango","banana","orange"]
+
+// var x = fruits.slice(1,3)
+// console.log(x);
+
+
+// chapter. 18.... for loop.......
+
+// for(var i=0; i <5; i++){
+// console.log(i);
+
+// }
+
+ for(var i = 2 ; i > 5; ){}
 
 // video 58
