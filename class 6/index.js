@@ -112,10 +112,6 @@
 
 
 
-
-
-
-
 //..... chapter 23, strings finding segments......
 
 
