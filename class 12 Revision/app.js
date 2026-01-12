@@ -307,7 +307,55 @@
 // console.log(randomNum);
 
 
+//chapter 28... Converting strings to integers and decimals
+
+/*jab hum prompt se input lete hai wo hamesha string ma hota hai
+math calculcation ke liye hume number me convert karna hoti hai */
+
+// kise number ka hum string ma kar sakta ha 
+// kise be string  ko hum number ma be kar sakta ha  
+
+// var num = "123xyz"
+// var result = parseInt(num);
+
+// console.log(result);
 
 
-var maths = Math.floor(Math.random(10) + 1);
-console.log(maths);
+// parseFloat() → String to Decimal is point ka bad wala number be show kar ta ha paresInt se point ka bad wala value show nhi ho ti ha 
+
+// var num = "23.33dd";
+// var result = parseFloat(num);
+// console.log(result);
+// console.log(typeof result)
+
+
+// var weight = prompt("enter a weight")
+// var result = parseInt(weight);
+
+// alert("you weight is" + result )
+
+
+
+
+
+// chapter 29... Converting strings to numbers, numbers to strings
+
+/*jab user prompt ya kise variable se string leta ha aur uska number me convert karna ho  */
+
+
+// var num  = "12.3"
+// var result = Number(num);
+// console.log(result);
+
+
+// var num = 123
+// var result = String(num)
+// console.log(result);
+// console.log(typeof result)
+
+// var num = 1232
+// var result = num.toString();
+// console.log(result);
+
+
+// chapter 30 next day inshallah
