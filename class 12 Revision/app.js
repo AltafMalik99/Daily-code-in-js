@@ -241,4 +241,73 @@
 
 
 // chapter 26 Rounding number 
-// inshallah next class ma 
+
+// Rounding ka matlab hoti hai decimal number ko qareebi integer poor number me badalna
+
+// var maths = Math.random();
+// console.log("maths=>",maths);
+
+// is ma har daf her number refers ho gya
+
+
+// var Mt = Math.round(Math.random())
+// console.log(Mt);
+
+// 0 se 1 tak
+
+
+
+// var mt = Math.round(Math.random()*12)
+// console.log(mt);
+
+
+
+// ....nearest round..
+
+// “Nearest round” ka matlab hai number ko qareebi (sab se nazdeeki) poore number par round karna
+
+// var maths = Math.round(4.5)
+// console.log(maths);
+
+
+// ceil...
+
+/* ceil (Math.ceil) javascript ka function hai jo kisi number ko uper wali poori ginti (greater integer) per le jata hai chahe decimal chhota ho ya bara.  */
+
+// var maths = Math.ceil(2.3)
+//  console.log(maths);  // output 3
+
+// // hamesha uper round
+
+
+// var maths = Math.floor(2.6)
+// console.log(maths); //output 2
+
+//  hamesha neeche round
+// jo number ha os ka dermyan ma
+
+
+// chapter 27 Generating random number
+
+
+// var maths = Math.floor(Math.random()* 10);{
+//     console.log(maths);
+// }
+
+// var maths = Math.floor(Math.random()*10) + 1;
+// console.log(maths);
+
+
+// min aur max define karo
+
+// var min = 5;
+// var max = 15;
+
+// var randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+// console.log(randomNum);
+
+
+
+
+var maths = Math.floor(Math.random(10) + 1);
+console.log(maths);
