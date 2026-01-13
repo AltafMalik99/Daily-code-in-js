@@ -444,9 +444,31 @@ math calculcation ke liye hume number me convert karna hoti hai */
 // var now = new Date();
 
 // console.log(now.getHours());
-// console.log(now.getSeconds())
+// console.log(now.getMonth()+1)
 
 
 
-var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday","saturday"];
-console.log("day=>" , days[date.getDay()])
+// var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday","saturday"];
+// console.log("day=>" , days[Date.getDay()])
+
+
+// pm or am
+
+// console.log(new Date().toLocaleString());
+
+// console.log(new Date().toLocaleString('UR-US', { hour12: true }));
+
+// var weekname = ["sunday","monday","tuesday","wednesday","thursday","firday"]
+
+// var today = new Date();
+// var todayname = weekname[today.getDay()];
+// console.log("Today is "+ todayname);
+
+
+// chapter 33 Specifying a date and time
+
+// is topic ma apni choice ka data and time set kar sakta ha
+
+// var myDate = new Date(2026,1,23);
+// console.log(myDate);
+
