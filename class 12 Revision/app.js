@@ -472,3 +472,29 @@ math calculcation ke liye hume number me convert karna hoti hai */
 // var myDate = new Date(2026,1,23);
 // console.log(myDate);
 
+// var myDate = new Date(2026,1,2,2,5,12)
+// console.log(myDate);
+
+// var myDate = new Date("2026-01-20 15:30:45");
+// console.log(myDate);
+
+
+// Format: "YYYY-MM-DD HH:MM:SS" recommended
+
+// chapter 34 Changing elements of a date and time
+
+// var a = new Date();
+// a.setMonth(7);
+// console.log(a);
+
+
+//  var a = new Date();
+// a.setDate(3);
+// console.log(a);
+
+
+// var a = new Date();
+// a.setDate(21);
+// console.log(a);
+
+// next class 35 chapter inshallah 
