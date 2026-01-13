@@ -315,7 +315,7 @@ math calculcation ke liye hume number me convert karna hoti hai */
 // kise number ka hum string ma kar sakta ha 
 // kise be string  ko hum number ma be kar sakta ha  
 
-// var num = "123xyz"
+// var num = "123.432"
 // var result = parseInt(num);
 
 // console.log(result);
@@ -353,9 +353,100 @@ math calculcation ke liye hume number me convert karna hoti hai */
 // console.log(result);
 // console.log(typeof result)
 
-// var num = 1232
+// var num = 1232.21
 // var result = num.toString();
+// console.log(result + 1);
+// console.log(typeof result)
+
+// var num = 1232.21
+// var result = toString(num)
+
+// console.log(result );
+// console.log(typeof result)
+
+
+// var age = 20;
+// console.log("Age is " + age.toString());
+
+// toString() = number ko text bana do
+
+
+// chapter ...30 Controlling the length of decimals
+
+/* ya topic especially jab hum proce marks height , weight ya parcentage dikhate ho*/
+
+// var num = 3.54545451
+// console.log(num);
+
+
+// tofixed....
+
+// var num = 3.142112315616;
+// var result = (num. toFixed(2)); // decimal tak
+// console.log(result);   // "3.14"
+// console.log(typeof result)  // string
+
+
+// var num = 3.142112315616;
+// var result = parseFloat(num. toFixed(2)); // decimal tak
+// console.log(result);   // "3.14"
+// console.log(typeof result)  
+
+// toFixed() number return nahi karta, string return karta hai.
+
+
+
+
+// var num = 3.551112565;
+// var result = Math.round(num * 100) / 100;
 // console.log(result);
 
+// var num = 3.141595455;
+// var result = Math.round(num * 100) / 100; // 2 decimal
+// console.log(result); // 3.14
+// console.log(typeof result); // number
 
-// chapter 30 next day inshallah
+
+// var num = 3.143565656;
+// console.log(num.toFixed(5));
+// console.log(Math.round(num*100)/100)
+
+
+
+// var price = 1199.515;
+// console.log("price : $" + price.toFixed(1));
+
+
+// chapter 31 Getting the current date and time
+
+
+// var time = new Date()
+// console.log(time);
+
+// var time = new Date();
+// console.log(time.getDate());
+// console.log(time.getHours())
+// console.log(time.getFullYear())
+// console.log(time.getMilliseconds())
+
+// var now = new Date();
+// var dateText = now.getDate() + "/" + (now.getMonth()+1) + "/" + now.getFullYear();
+// console.log("Today is: " + dateText);
+
+
+// var now = new Date();
+// var textTime = now.getHours()+ ":" + now.getMinutes()+ ":" + now.getSeconds()
+// console.log("current time ", textTime);
+
+
+// chapter 32 Extracting parts of the date and time
+
+// var now = new Date();
+
+// console.log(now.getHours());
+// console.log(now.getSeconds())
+
+
+
+var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday","saturday"];
+console.log("day=>" , days[date.getDay()])
