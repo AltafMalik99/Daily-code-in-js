@@ -496,5 +496,3 @@ math calculcation ke liye hume number me convert karna hoti hai */
 // var a = new Date();
 // a.setDate(21);
 // console.log(a);
-
-// next class 35 chapter inshallah 
