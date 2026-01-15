@@ -222,19 +222,98 @@ lekin use karne par error aata hai.*/
 /* switch ek conditional statement hai jo ek variable ka hisaab se multiple option check karta ha */
 
 
-var days = prompt("enter a day")
-var days = "fri";
+// var days = prompt("enter a day")
+// var days = "fri";
 
-switch (days){
-case "wed":
-    console.log("today is wednesday")
-break
-    case "fri":
-    console.log("today is friday" )
-break
-    case "sat":
-    console.log("today is saturday")
-break
-    default :
-    console.log("holiday")
-}
+// switch (days){
+// case "wed":
+//     console.log("today is wednesday")
+// break
+//     case "fri":
+//     console.log("today is friday" )
+// break
+//     case "sat":
+//     console.log("today is saturday")
+// break
+//     default :
+//     console.log("holiday")
+// }
+
+
+// calculator projact..
+
+// function add(a,b){
+//     return a+b
+// }
+
+
+// function sub(a,b){
+//     return a-b
+// }
+
+
+// function mult(a,b){
+//     return a*b
+// }
+
+
+// function div(a,b){
+//     return a/b
+// }
+
+
+
+// var num1= + prompt("enter first number",2)
+// var num2= + prompt("enter second number",2)
+// var operation=prompt("operation perform(+,/,*,-)",'+')
+
+// switch (operation){
+// case "+":
+// console.log(add(num1,num2));
+// break
+// case "-":
+//     console.log(sub(num1,num2))
+//     break
+
+//     case "*":
+//         console.log(mult(num1,num2))
+//         break
+
+// case "/":
+// console.log(div(num1,num2))
+// break
+
+// default:
+//     console.log("not a sign")
+
+// }
+
+
+// chapter 41 while loop.....
+
+// jab tak condition true ho
+// tab tak code bar-bar chalta rehta hai
+
+// var i=5
+// while (i>2){
+// console.log(i);
+// i--
+// }
+
+
+
+// var correctPin='1234';
+// var userInput = prompt("enter a correct pin")
+
+// while(correctPin !== userInput){
+// userInput=prompt("wrong a incorrct pin")
+// }
+// console.log("corract pin");
+
+// var correctPin = "1234";
+// var userInput = prompt("Enter a correct pin");
+
+// while (correctPin !== userInput) {
+//     userInput = prompt("Wrong or incorrect pin");
+// }
+// console.log("Correct pin");
