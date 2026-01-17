@@ -220,7 +220,7 @@ lekin use karne par error aata hai.*/
 // chapter ....39.... switch statements How to start them.....
 
 /* switch ek conditional statement hai jo ek variable ka hisaab se multiple option check karta ha */
-
+// jab hum kam conditional karna ho is lay use hoti ha
 
 // var days = prompt("enter a day")
 // var days = "fri";
@@ -310,6 +310,9 @@ lekin use karne par error aata hai.*/
 // }
 // console.log("corract pin");
 
+
+
+
 // var correctPin = "1234";
 // var userInput = prompt("Enter a correct pin");
 
@@ -317,3 +320,92 @@ lekin use karne par error aata hai.*/
 //     userInput = prompt("Wrong or incorrect pin");
 // }
 // console.log("Correct pin");
+
+
+/* userInput correctPin ke barabar nahi hai → true → loop chalega
+userInput correctPin ke barabar hai → false → loop rukega */
+
+
+// var i=3
+// while(i>0){
+// console.log(i);
+// i--
+// }
+
+// var i = 1
+// while (i<=10){
+// console.log("hello"+i);
+// i++
+// }
+
+
+// var i = 10
+// while (i>1){
+//     console.log("hello");
+//  i+
+// }
+
+// var i = 5;
+// while (i>0){
+// console.log("hello");
+
+// }
+
+// infinite loop ha 
+
+// jab tak condition true ha chale jae gya 
+// condition hamesha true rehti hai kyunki i ko update nhi kaiu
+
+
+//  ya loop kam se kam ek dafa to execute hoti hai phir condition check karta ha
+
+// chapter 42 Do while loop.....
+
+// pehle kam kare gay phir condition check kare gay
+
+
+// var i =10
+// do{
+// console.log(i);
+// i++
+// }while (i<5)
+
+
+// var i = 1;
+
+// do{
+// console.log("hello " + i);
+// i++;
+// }while(i <= 5)
+
+// condition false per bhi 1 dafa run hogya
+
+
+// var i = 10;
+// console.log("hello");
+
+// do{
+
+// }while(i < 5)
+
+
+
+// var i = 10 
+
+// do{
+// console.log("Run ata least once");
+// }while(i < 5)
+/*condition i < 5 false ha lekin console me message print ho gaya ye do ..while ka magic hai
+yani Do ..while me code pehle execute hoti hai phir condition check hoti hai */
+
+
+// var corractPin = "123";
+// var userInput;
+
+// do {
+//     userInput =prompt("enter a pin")
+// }while(userInput !== corractPin);
+
+// console.log("correct pin");
+
+
