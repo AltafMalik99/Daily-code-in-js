@@ -163,24 +163,29 @@ tab js koi action karta hai */
 
 
 
+// function getvalue(){
+//     var name = document.getElementById("input")
+//     console.log(name.value);
+//     input.style.backgroundColor="lightblue"
+// }
 
 
+// function setvalue(){
+//     var name = document.getElementById("input")
+//     name.value = "Altaf"
+//     input.style.borderColor="yellow"
+// }
+
+// function rgcolor(){
+//     var input = document.getElementById("input")
+//     input.style.backgroundColor="yellow"
+// }
 
 
+// function changeImage(){
+//     var  image = document.getElementById("image")
+//     image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEztWzkKFIsUSBZXPogyev7vXYjESPaYM-SQ&s"
+// }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-function setvalue(){
-    var name 
-}
+// video 36
