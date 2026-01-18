@@ -160,3 +160,27 @@ tab js koi action karta hai */
 //     // input.style.backgroundColor="red";
 //     input.style.backgroundColor="yellow";
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function setvalue(){
+    var name 
+}
