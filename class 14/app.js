@@ -60,3 +60,4 @@ jab tak condition true ho code repeat karta hai */
 // function print (){
 //     console.log("onbluer")
 // }
+
