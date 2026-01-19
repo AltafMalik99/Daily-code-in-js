@@ -241,5 +241,3 @@ tab js koi action karta hai */
 // }
 
 
-
-// video 36
