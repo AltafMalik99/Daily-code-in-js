@@ -188,4 +188,58 @@ tab js koi action karta hai */
 // }
 
 
+// multipul image changeing ...
+
+// var image = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8eSlOknnyXQuzqLgkBOoCPWZH2eJ_WF4JrQ&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYa68a31TXuBjQgYWVlKcE9wSPNrf5Sg6fzw&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEGYifWRRf0xQYTmpAf-zOvODFEZrXjUcpg&s"]
+
+// var index = 0
+
+// function changeimg(){
+//     index++;
+//     if(index >= image.length){
+
+//         index = 0
+//     }
+//     document.getElementById("myimage").src = image[index]
+
+// }
+
+// var image = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFZaLvVB6UsW9zQuai9iJ6LKEcaHYxBkebSA&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEGYifWRRf0xQYTmpAf-zOvODFEZrXjUcpg&s","https://gtacars.ae/wp-content/uploads/2024/10/LEVA-GTA-Cars-JD-Urus-7-copy-scaled.jpg"]
+// var index = 0;
+
+// function changeimg (){
+//     index++
+//     if(index >= image.length){
+//         index = 0;
+//     }
+//     document.getElementById("img").src = image[index]
+// }
+
+
+// var images = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSspgd0xnBLQET7oyFsjWuOhg04RNdqUmnZMw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYa68a31TXuBjQgYWVlKcE9wSPNrf5Sg6fzw&s",];
+// var index = 0;
+
+// function changeImage() {
+//     index++;
+//     if (index >= images.length) {
+//         index = 0;
+//     }
+//     document.getElementById("myImage").src = images[index];
+// }
+
+
+
+// var image = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWRd-0-oMT-Vb2aKJVwwpA73-p_AjYu_RFJw&s","https://cache4.pakwheels.com/system/car_generation_pictures/8676/original/Cover.jpg?1744875096"]
+// var index = 0;
+
+// function changeimg (){
+//     index ++;
+//     if(index >= image.length){
+//         index = 0;
+//     }
+//     document.getElementById("myimg").src = image[index]
+// }
+
+
+
 // video 36
