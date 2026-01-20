@@ -5,6 +5,17 @@
 // }
 
 
+// function changcolor(){
+//     var p = document.getElementById("color").style.backgroundColor="green"
+
+    
+// }
+
+// function redfiled(event){
+//     console.log("event",event.id);
+    
+// }
 
 
-// 1:2:00
+
+
