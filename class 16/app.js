@@ -4,7 +4,7 @@
     
 // }
 
-
+// Reading field values.....
 
 
 // function getvalue (){
@@ -15,7 +15,6 @@
 
 
 
-/* // video 13 */
 
 
 
@@ -56,3 +55,12 @@
 //         alert("empty emial")
 //     }
 // }
+
+
+
+
+
+
+
+
+
