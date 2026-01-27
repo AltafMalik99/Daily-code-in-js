@@ -73,11 +73,11 @@ images 1 aur images 2 hai button 1 ki jagah images 2 ajaye aur  */
 
 
 
-// // function big(){
-// //     var para = document.getElementById('para')
-// //     para.className += " size"
-// //     console.log("para",para)
-// // }
+// function big(){
+//     var para = document.getElementById('para')
+//     para.className += " size"
+//     console.log("para",para)
+// }
 
 
 
@@ -93,4 +93,57 @@ images 1 aur images 2 hai button 1 ki jagah images 2 ajaye aur  */
 //     var address = "https://google.com"
 //     console.log(address)
 // }
+
+
+
+
+// function divpara(event){
+//     console.log("div=>",event.target);
+//     event.target.style.backgroundColor = 'red'
+//     event.target.style.color = "yellow"
+//     event.target.style.fontSize = "30px"
+    
+// }
+
+
+// function divpara (event){
+
+//     var para = document.getElementsByTagName('div')
+// var ch = para[0].textContent
+//     console.log(ch);
+
+// }
+
+
+
+// var div = document.getElementsByTagName('div')
+// var para = div[0].getElementsByTagName('p')
+// console.log("para=>" ,para);
+
+
+// var div = document.getElementById('para')
+// div.onclick = function(){
+//     console.log("div",div);
+    
+// }
+
+
+
+// var div = document.querySelector('div')
+// div.addEventListener('click', function () {
+//     console.log(div);
+// })
+
+
+// var div = document.querySelector('div')
+// div.addEventListener('mouseover', function(){
+//     console.log("chal gay ha", div);
+    
+// })
+
+
 // chapter 54 sawapping imges and setting classes
+
+/*  ek images ko click event per doosri images se change kar dena */
+
+
