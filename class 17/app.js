@@ -147,3 +147,42 @@ images 1 aur images 2 hai button 1 ki jagah images 2 ajaye aur  */
 /*  ek images ko click event per doosri images se change kar dena */
 
 
+// function swap(){
+//    var pic = document.getElementById('pic').src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw2dAVNmBhqVvNPAs7LJHnumSH3pHdoWP0bg&s"
+//     console.log("pic=>" , pic);
+    
+// }
+
+
+// function swap(imgid, imgsrc){
+//     var pic = document.getElementById(imgid);pic.src = imgsrc;
+//     console.log(pic.src);
+// }
+
+
+// function swap(imgid,newSrc){
+//     var pic = document.getElementById(imgid);pic.src = newSrc;
+//     console.log(pic.src);
+    
+// }
+
+
+// Target all elements by tag name
+
+// function styleAll(){
+//     var p = document.getElementsByTagName("p");
+
+//     for(var i =0;i<p.length; i++){
+//         p[i].style.color = 'red'
+//     }
+// }
+
+
+
+// function styleAll(){
+// var p = document.getElementsByTagName('p')
+
+// for(var i = 0; i<i.length; i++){
+//     p[i].style.color = 'yellow'
+// }
+// }
