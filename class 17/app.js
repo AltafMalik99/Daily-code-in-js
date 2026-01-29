@@ -167,7 +167,9 @@ images 1 aur images 2 hai button 1 ki jagah images 2 ajaye aur  */
 // }
 
 
-// Target all elements by tag name
+// chapter 56... Target all elements by tag name
+
+/* agar ek tag ka name likha do to us tag ke jitne bhi element hon ge sab per style lag jayega */
 
 // function styleAll(){
 //     var p = document.getElementsByTagName("p");
@@ -180,9 +182,41 @@ images 1 aur images 2 hai button 1 ki jagah images 2 ajaye aur  */
 
 
 // function styleAll(){
-// var p = document.getElementsByTagName('p')
+//     var p = document.getElementsByTagName('p');
 
-// for(var i = 0; i<i.length; i++){
-//     p[i].style.color = 'yellow'
+// for (i=0;i<p.length;i++){
+//     p[i].style.color = "pink"
 // }
 // }
+
+
+// chapter 57... Target some elements by tag name
+
+/* web page per aksar ek ha tag ke bohot se element hotay hai 
+lakin har dafa humein sab element per kaam nhi karna hota */
+
+
+
+// function styleAll(){
+//     var p = document.getElementsByTagName('p')
+//     p[0].style.color = 'red'
+// }
+
+
+// function styleAll(){
+    //     var p = document.getElementsByTagName('p')
+    //     p[0].style.color = 'red'
+    // p[p.length -1].style.color = 'yellow'
+// }
+
+// function styleAll(){
+//     var p = document.getElementsByTagName('p')
+//     p[0].style.color = 'red'
+//       p[1].style.color = 'blue'
+//           p[2].style.color = 'yellow'
+//               p[3].style.color = 'lightgreen'
+
+//     p[p.length - 1].style.color = 'blue'
+// }
+
+
