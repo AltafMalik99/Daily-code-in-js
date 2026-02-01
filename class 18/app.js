@@ -95,3 +95,48 @@ jo html ko js ka sath connect karta hai */
 
 /*Dom js ko power deta hai ke wo html ko dekha samajh aur change kar sakay */
 
+
+// var parent = document.getElementById('para');
+// console.log(parent.children);
+// parent.children[0].style.color = "blue"
+// parent.lastElementChild.style.background = "green";
+
+
+// var box = document.getElementById("box");
+// console.log(box.children);
+
+// box.children[2].onclick = function(){
+//     box.children[1].style.color = "red"
+// }
+
+
+
+// function chcolor(){
+//     var p = document.getElementsByTagName("p")
+//     p[0].style.color = "red"
+// }
+
+
+// function styleAll(){
+//     var p = document.getElementsByTagName('p')
+//     p[0].style.color = 'red'
+// }
+
+
+// var list = document.getElementById("list");
+// list.children[1].style.background = "yellow"
+// list.children[1].style.display = "inline"
+
+
+// function ch (){
+//     var p = document.getElementsByTagName("li")
+//     p[0].style.backgroundColor = "yellow"
+//         p[1].style.backgroundColor = "yellow"
+//             p[0].style.backgroundColor = "red"
+//               p[2].style.backgroundColor = "blue"
+//             p[0].style.display = "inline"
+//                 p[1].style.display = "inline"
+//                     p[2].style.display = "inline"
+// }
+
+
