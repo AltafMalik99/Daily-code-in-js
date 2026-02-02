@@ -25,37 +25,40 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 
 
 
-var fontSize = 16;
-function dec(){
-    if(fontSize <30){
-
-        
-        var allParas = document.
-        getElementsByTagName("p")
-        fontSize -= 2
-        
-        for(i = 0;i<allParas.length;i++)
-            allParas[i].style.fontSize = fontSize + "px"
-    }
-}
+// var fontSize = 16;
+// function dec() {
+//     if (fontSize > 8) {
 
 
+//         var allParas = document.
+//             getElementsByTagName("p")
+//         fontSize -= 2
 
-function incr(){
-    console.log("buttion click");
+//         for (i = 0; i < allParas.length; i++)
+//             allParas[i].style.fontSize = fontSize + "px"
+//     }
+// }
 
-if(fontSize <30){
 
-    var allParas = document
-    .getElementsByTagName("p")
 
-    fontSize +=2;
-    
-    for(i=0;i< allParas.length;i++){
-        allParas[i].style.fontSize = fontSize + "px"
-    }
-}}
+// function incr() {
+//     console.log("buttion click");
 
+//     if (fontSize < 30) {
+
+//         var allParas = document
+//             .getElementsByTagName("p")
+
+//         fontSize += 2;
+
+//         for (i = 0; i < allParas.length; i++) {
+//             allParas[i].style.fontSize = fontSize + "px"
+//         }
+//     }
+// }
+
+
+// video 24
 
 // Note
 /* jab humein kisi khaas specific tag name ke taman element chahiye hon to
