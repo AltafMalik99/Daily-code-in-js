@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 16px;
+}
+
+.plus{
+    color: rgb(227, 119, 3);
+    background-color: rgb(0, 255, 38);
+    border: none;
+    width: 20px;
+      margin-top: 10px;
+      width: 30px;
+      height: 20px;
+}
+
+
+.min{
+    margin-right: 10px;
+    color: rgb(227, 119, 3);
+    background-color: rgb(0, 255, 38);
+    border: none;
+    width: 20px;
+    margin-top: 10px;
+     width: 30px;
+      height: 20px;
+   
+}
+
+
+.plus:hover{
+    border-radius: 4px;
+    border-color:rgb(255, 0, 0) ;
+    color: yellow;
+}
+
+.min:hover{
+    border-radius: 4px;
+    border-color:rgb(255, 0, 0) ;
+   color: yellow;}
+
+.main{
+       display: flex;
+    justify-content: center;
+}
