@@ -26,7 +26,7 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 
 
 // var fontSize = 16;
-// function dec() {
+// function minas() {
 //     if (fontSize > 8) {
 
 
@@ -41,7 +41,7 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 
 
 
-// function incr() {
+// function plus() {
 //     console.log("buttion click");
 
 //     if (fontSize < 30) {
@@ -59,10 +59,11 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 
 
 
+// function para(){
+//     document.getElementById("para").style.backgroundColor = "red"
+// }
 
-
-
-// video 24
+// video 28
 
 // Note
 /* jab humein kisi khaas specific tag name ke taman element chahiye hon to
