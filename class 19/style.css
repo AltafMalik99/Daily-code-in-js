@@ -60,3 +60,10 @@ width: 40px;
 height: 33px;
 margin-top: 5px;    
 }
+
+.ball{
+    height: 200px;
+    width: 200px;
+background-color: red;
+transition: 2s;
+}

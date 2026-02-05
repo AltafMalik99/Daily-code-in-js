@@ -25,43 +25,63 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 
 
 
-// var fontSize = 16;
-// function minas() {
-//     if (fontSize > 8) {
+var fontSize = 16;
+function minas() {
+    if (fontSize > 8) {
 
 
-//         var allParas = document.
-//             getElementsByTagName("p")
-//         fontSize -= 2
+        var allParas = document.
+            getElementsByTagName("p")
+        fontSize -= 2
 
-//         for (i = 0; i < allParas.length; i++)
-//             allParas[i].style.fontSize = fontSize + "px"
-//     }
-// }
-
-
-
-// function plus() {
-//     console.log("buttion click");
-
-//     if (fontSize < 30) {
-
-//         var allParas = document
-//             .getElementsByTagName("p")
-
-//         fontSize += 2;
-
-//         for (i = 0; i < allParas.length; i++) {
-//             allParas[i].style.fontSize = fontSize + "px"
-//         }
-//     }
-// }
+        for (i = 0; i < allParas.length; i++)
+            allParas[i].style.fontSize = fontSize + "px"
+    }
+}
 
 
 
-// function para(){
-//     document.getElementById("para").style.backgroundColor = "red"
-// }
+function plus() {
+    console.log("buttion click");
+
+    if (fontSize < 30) {
+
+        var allParas = document
+            .getElementsByTagName("p")
+
+        fontSize += 2;
+
+        for (i = 0; i < allParas.length; i++) {
+            allParas[i].style.fontSize = fontSize + "px"
+        }
+    }
+}
+
+
+
+function para(){
+    document.getElementById("para").style.backgroundColor = "red"
+}
+
+
+
+function ball(){
+    document.getElementsByTagName('div')
+    [0].style.borderRadius = "50%"
+ 
+    document.getElementsByTagName('div')
+    [0].style.transform = "translateX(100PX)"
+   
+}
+
+//  var p = document.getElementsByTagName('div')[0].nextElementSibling.parentElement
+// console.log(p);
+
+
+// var p = document.getElementsByTagName("ul")[0].childNodes
+var p = document.getElementsByTagName("li")[0].childNodes
+console.log(p);
+
 
 // video 28
 
