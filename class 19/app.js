@@ -83,7 +83,7 @@ var p = document.getElementsByTagName("li")[0].childNodes
 console.log(p);
 
 
-// video 28
+// video part 3 10:00
 
 // Note
 /* jab humein kisi khaas specific tag name ke taman element chahiye hon to
