@@ -135,6 +135,13 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 // chapter 66 .The Dom attribute names and values..
 
 
+/* html me har element ke extra properties hoti hai unko attribute kehte hai  */
+
+
+var x = document.getElementById("input");
+console.log(x.getAttribute("placeholder"));
+
+
 
 // video 28
 
