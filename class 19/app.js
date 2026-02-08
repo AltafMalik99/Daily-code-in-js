@@ -138,12 +138,45 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 /* html me har element ke extra properties hoti hai unko attribute kehte hai  */
 
 
-var x = document.getElementById("input");
-console.log(x.getAttribute("placeholder"));
+// var x = document.getElementById("input");
+// console.log(x.getAttribute("placeholder"));
+
+
+// var img = document.getElementById("logo");
+
+// console.log(img.getAttribute("src"));
+// img.setAttribute("width", "200")
+// img.removeAttribute("img");
 
 
 
-// video 28
+// chapter 67 The DOM  adding nodes..
+
+/* js se new element create karna us me text dalna pages me add karna */
+   
+
+// var p = document.createElement("p");
+
+// p.innerText = "hello dom";
+// console.log(p);
+
+
+// function addpara(){
+//     var p = document.createElement("p");
+//     p.innerText = "new paragraph added";
+//     document.body.appendChild(p)
+// }
+
+
+
+// chapter 68.. The DOM Inserting nodes..
+
+/* kisi element se pehle add karta ha */
+
+
+var newpara = document.createAttribute("p");
+newpara
+
 
 // Note
 /* jab humein kisi khaas specific tag name ke taman element chahiye hon to
