@@ -174,8 +174,25 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 /* kisi element se pehle add karta ha */
 
 
-var newpara = document.createAttribute("p");
-newpara
+
+
+// let newP = document.createElement("p");
+// newP.innerText = "Inserted Paragraph";
+
+// let box = document.getElementById("box");
+// let oldP = box.children[0];
+
+// box.insertBefore(newP, oldP);
+
+
+// var p = document.getElementById("box")
+// var p = document.getElementById("p1");
+// box.removeChild(p);
+
+// var box = document.getElementById("box");
+// var para = document.getElementById("p1");
+// box.removeChild(para);
+
 
 
 // Note
