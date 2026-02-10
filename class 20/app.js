@@ -28,6 +28,9 @@ jaise real life ma , insaan -> name , age , city */
 
 
 
+
+
+
 // var sdata = {
 //     'name': "Ali",
 //     "age": 20,
