@@ -20,6 +20,7 @@ is wajah se kuchi extra / unwanted nodes ban jate hai jinhein hum junk artifacts
 // console.log(p.firstChild.nodeType);
 
 
+
 // jo funcation kisi objact ka ander bana ho usko methode kehte hai
 
 // projact..
