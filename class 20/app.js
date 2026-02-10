@@ -23,14 +23,6 @@ jaise real life ma , insaan -> name , age , city */
 
 
 
-
-
-
-
-
-
-
-
 // var sdata = {
 //     'name': "Ali",
 //     "age": 20,
@@ -97,16 +89,56 @@ jaise real life ma , insaan -> name , age , city */
 
 
 
-var obj ={
-    name:"ali",
-    age:30
+// var obj ={
+//     name:"ali",
+//     age:30
 
-}
-obj.roll = 10
-obj.bio = {}
-console.log(obj);
+// }
+// obj.roll = 10
+// obj.bio = {}
+// console.log(obj);
 
 // console.log("name" in obj); // boolean
+
+
+
+// chapter 72..object Methods...
+
+/* object ke ander jo function hoti hai usay method kehtay hai */
+
+// var person = {
+//     name: "Ali",
+//     age: 25,
+    
+//     greet: function(){
+//         console.log("hello");
+        
+//     }
+// };
+
+
+
+
+// var person = {
+//     name: "Ali",
+
+//     sayName: function(){
+//         console.log(this.name);
+        
+//     }
+// };
+
+// person.sayName();
+
+
+
+// chapter 72 Object constructors...
+
+
+
+// 1:17
+
+
 
 
 
