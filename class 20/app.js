@@ -17,6 +17,8 @@ jaise real life ma , insaan -> name , age , city */
 // console.log(stdata)["male"];
 // console.log(stdata['age']);
 
+/* now every have key (10 have key called roll (value)) */
+
 
 // var person = {name: "Altaf" , gender: "male", city: "karachi", age: "20" };
 // console.log(person);
@@ -102,6 +104,7 @@ jaise real life ma , insaan -> name , age , city */
 
 
 
+
 // chapter 72..object Methods...
 
 /* object ke ander jo function hoti hai usay method kehtay hai */
@@ -136,14 +139,16 @@ jaise real life ma , insaan -> name , age , city */
 
 
 
-// 1:17
 
 
+// function enter (){
+//     var p = document.getElementById("input")
+//     console.log("p=>",p)
+//     p.style.backgroundColor = "red";
+//     p.style.fontSize = 20
+    
+// }
 
 
-
-// video 34
-
-/* now every have key (10 have key called roll (value)) */
 
 // var stdata = 
