@@ -45,6 +45,7 @@ jo input ma value likho gya wo console ma show ho gya*/
 
 
 
+
 // function check(){
 //     var e = document.getElementById("email").value;
 
@@ -53,6 +54,8 @@ jo input ma value likho gya wo console ma show ho gya*/
 //     }
 
 // }
+
+
 
 
 
@@ -65,7 +68,7 @@ jo input ma value likho gya wo console ma show ho gya*/
 // }
 
 
-
+// .......................
 
 // function checkCampus() {
 //     var roll = document.getElementById("rollnumber").value
@@ -243,23 +246,4 @@ paragraph ka text set karna naya text delan */
 // function ch(){
 //     document.getElementById("img").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqT6wVOAq7Runazz0KnwjcwDAnBgB5Xg_-OA&s"
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
