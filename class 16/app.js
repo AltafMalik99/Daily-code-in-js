@@ -4,6 +4,11 @@
     
 // }
 
+
+/* is ma (.value) input box ke ander jo likha hota hai wo uthata hai 
+jo input ma value likho gya wo console ma show ho gya*/
+
+
 // Reading field values.....
 
 
@@ -14,7 +19,10 @@
 
 
 
-
+// function username(){
+//     var p = document.getElementById("name")
+//     alert(p.value)
+// }
 
 
 
@@ -26,10 +34,10 @@
 
 // if(u === "abc" && p === "123" && e === "abc@gmail.com"){
 
-//     alert("login sucessful")
+//     alert("login sucessful ✅")
 // }else{
-//     alert("wrong")
-// }l
+//     alert("wrong ❌")
+// }
 
 // }
 
