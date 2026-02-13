@@ -57,8 +57,6 @@ jo input ma value likho gya wo console ma show ho gya*/
 
 
 
-
-
 // function check(){
 //     var e = document.getElementById("email").value
 
@@ -67,6 +65,7 @@ jo input ma value likho gya wo console ma show ho gya*/
 //     }
 // }
 
+/* .value input box ke andar likha hua text uthata hai */
 
 // .......................
 
@@ -102,8 +101,6 @@ jo input ma value likho gya wo console ma show ho gya*/
 
 
 
-
-
 // <!-- chapter 51.. Reading and setting paragraph text -->
 
 /* paragraph ka text read karna jo likha ha usay lena
@@ -119,13 +116,14 @@ paragraph ka text set karna naya text delan */
 // var a = document.getElementById("para").innerText = "this is a ball"
 // console.log(a);
 
+
 // function showpara(){
 //     var p = document.getElementById("pare").innerText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
-//     // console.log(p);
+//     console.log(p);
 
 // }
 
-
+// ...................................................................
 // function renderList(){
 
 //     var orderlist = document.getElementById("list");
