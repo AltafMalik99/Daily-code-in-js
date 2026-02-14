@@ -123,7 +123,9 @@ paragraph ka text set karna naya text delan */
 
 // }
 
-// ...................................................................
+
+
+
 // function renderList(){
 
 //     var orderlist = document.getElementById("list");
@@ -133,23 +135,25 @@ paragraph ka text set karna naya text delan */
 // }
 
 
-// function renderList (){
-//     var orderlist = document.getElementById("list");
-// var list =  "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzwuNo8HsyQgmYdB47lG6jozFQ_IS-tp_-0w&s' alt='' width='300'>"
-
-
-// orderlist.innerHTML = list
-// }
-
-
-//  text = document.getElementById("para").innerText;
-// alert(text)
-
 
 // function change(){
 // document.getElementById("para").innerText = "this is a ball";
 // }
 
+
+
+// function renderList (){
+//     var orderlist = document.getElementById("list");
+// var list =  "<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzwuNo8HsyQgmYdB47lG6jozFQ_IS-tp_-0w&s' alt='' width='300'>"
+// orderlist.innerHTML = list
+// }
+
+
+
+
+//  text = document.getElementById("para").innerText;
+// alert(text)
+// console.log(text);
 
 
 
@@ -158,6 +162,7 @@ paragraph ka text set karna naya text delan */
 //     var x = document.getElementById("para").innerText
 //     document.getElementById("para").innerText = x + " student ";
 // }
+
 
 // button click purana read + naya add
 
@@ -169,8 +174,9 @@ paragraph ka text set karna naya text delan */
 // function invisible (){
 //     var img = document.getElementById("img")
 //     console.log("list=>" ,img);
-    
 // }
+
+
 
 
 
@@ -195,9 +201,8 @@ paragraph ka text set karna naya text delan */
 // function change (){
 //  var b =   document.getElementById("img1").src = "https://toyishland.com/wp-content/uploads/2022/10/01.webp"
 //     console.log(b);
-    
-
 // }
+
 
 
 
@@ -223,8 +228,10 @@ paragraph ka text set karna naya text delan */
 //     if(index >= image.length){
 //         index = 0;
 //     }
-//     document.getElementById("myimg").src = image[index]
+//     document.getElementById("img1").src = image[index]
 // }
+
+
 
 
 
