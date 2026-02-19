@@ -14,7 +14,7 @@ jaise real life ma , insaan -> name , age , city */
 
 
 // var stdata = '{"roll": 10, "age": 20, "gender": "male", "name": "saad","city": "karachi" }';
-// console.log(stdata)["male"];
+// console.log(stdata)['gender'];
 // console.log(stdata['age']);
 
 /* now every have key (10 have key called roll (value)) */
@@ -22,6 +22,8 @@ jaise real life ma , insaan -> name , age , city */
 
 // var person = {name: "Altaf" , gender: "male", city: "karachi", age: "20" };
 // console.log(person);
+
+
 
 
 
@@ -40,11 +42,11 @@ jaise real life ma , insaan -> name , age , city */
 //            fuelAverage: {low:200, high:[300,400]}}
 
 // }
-// // console.log(sdata["name"]);
-// // console.log(sdata.subjact[0]);
-// // console.log(sdata.bio);
-// // console.log(sdata.car["name"]);
-// // console.log(sdata.car.cc);
+// console.log(sdata["name"]);
+// console.log(sdata.subjact[0]);
+// console.log(sdata.bio);
+// console.log(sdata.car["name"]);
+// console.log(sdata.car.cc);
 // console.log(sdata.car.fuelAverage.high[0]);
 
 
@@ -56,6 +58,7 @@ jaise real life ma , insaan -> name , age , city */
 // obj.age = 20;
 // obj.subjects = "math", "physice","computer"
 // console.table(obj.subjects);
+
 
 
 
@@ -71,6 +74,8 @@ jaise real life ma , insaan -> name , age , city */
 // obj.roll = 10
 // // delete obj.name
 // console.log("name" in obj); // boolean
+
+
 
 
 
@@ -90,6 +95,23 @@ jaise real life ma , insaan -> name , age , city */
 // console.log(obj);
 
 
+
+
+// var obj ={
+//     name: "noor",
+//     age: 20
+// }
+
+// obj.roll = 10
+// console.log("name" in  obj);
+
+// for(var abc in obj){
+
+// }
+
+// in operater check karta ha property object ka ander exist karti ha ya nhi 
+
+// js ma object dynamic hoti ha baad me bhi prorprty add kar sakta ha
 
 // var obj ={
 //     name:"ali",
@@ -121,7 +143,6 @@ jaise real life ma , insaan -> name , age , city */
 
 
 
-
 // var person = {
 //     name: "Ali",
 
@@ -134,6 +155,9 @@ jaise real life ma , insaan -> name , age , city */
 // person.sayName();
 
 
+
+// this, jis object ne function ko call kiya ha
+/* object ka andar jo function hoti ha usko method kehte ha */
 
 // chapter 72 Object constructors...
 
