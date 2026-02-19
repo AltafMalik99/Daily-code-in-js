@@ -11,11 +11,21 @@ images 1 aur images 2 hai button 1 ki jagah images 2 ajaye aur  */
     
 // }
 
+
+// function swap(){
+//     var image = document.getElementById("img").src
+//     var images = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjMYbuRL6QtxrQKZI1XV1JXknUIUxJiCsmiw&s"
+//     console.log(images);
+    
+    
+// }
+
+
 // is na ma image updata kar dey
 
 
 // function swap(img,imgsrc){
-//     var images = document.getElementById(img).src = imgsrc
+//     var images = document.getElementById("img").src = imgsrc
 //     console.log("img=>", images);
     
 // }
