@@ -80,3 +80,24 @@
 
 // var student1 = new Student("ali", 30, 20)
 // console.log(student1);
+
+
+
+// var obj = {
+//     name:" ali",
+//     roll:20,
+// }
+// obj.funct = function(){
+//     return ("inside function" + this.name).toUpperCase();   
+// }
+// console.log(obj.funct());
+
+
+
+// var fruits = {banana: 300 ,orange: 200 , apple: 500};
+// var text = "";
+// for(var [fruits, value] of Object.entries(fruits)){
+//     text += fruits + ": " + value + "<br>" ;
+//     console.log(text);
+    
+// }
