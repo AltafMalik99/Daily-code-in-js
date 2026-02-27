@@ -3,6 +3,8 @@
 //     roll: 20,
 //     age: 10,
 // };
+// console.log(obj);
+
 
 
 // var obj2 = {}
@@ -22,6 +24,10 @@
 // obj2["fullName"] = "Malik"
 // // console.log("obj2=>",obj2);
 // console.table(obj2);
+
+
+
+    
 
 
 // var obj = {
@@ -49,6 +55,7 @@
 // console.log(obj.speed());
 
 
+
 // var obj = {
 //     name: "malik",
 //     age: 18,
@@ -57,6 +64,9 @@
         
 //     }
 // }
+
+// console.log(obj.speed());
+
 // obj.speed();
 
 
@@ -82,6 +92,13 @@
 // console.log(student1);
 
 
+// constructor funciton
+// ye ek normal function ha lekin hum isko new ka sath use karte ha to ye construction ban jata ha hai
+// jab new lagta ha jo js ma ek naya empty object se connect karta ha 
+// this.name = name object me value daal deta hai object ko return kar deta ha
+// constructor function ka naam capital letter se likhte ha 
+
+
 
 // var obj = {
 //     name:" ali",
@@ -93,6 +110,10 @@
 // console.log(obj.funct());
 
 
+// this
+// this us object ko point karta hai jo function ko call kar rha hota hai
+// this us naya object ko point kar ta ha
+
 
 // var fruits = {banana: 300 ,orange: 200 , apple: 500};
 // var text = "";
@@ -101,3 +122,45 @@
 //     console.log(text);
     
 // }
+
+
+// var obj  = {
+//     name: "ali",
+//     getname: function(){
+//         console.log(this);
+        
+//     }
+// }
+
+// var a = obj.getname
+// a()
+
+
+
+// function Student(){
+//     this.name = "ali"
+//     this.roll = 123
+//     this.age = 20
+// }
+// // console.log(window);
+
+// console.log(new Student());
+
+
+// function Student(name,email,phone){
+//     this.name = name;
+//     this.email = email;
+//     this.phone = phone;
+// }
+// console.log(new Student("ali" , "abc@gmail.com", 13156123));
+
+// var arr = [
+//     new Student("ali" , "abc@gmail.com", 13156123),
+//        new Student("noor" , "abc@gmail.com", 13156123),   
+//            new Student("hussain" , "abc@gmail.com", 13156123),
+//                new Student("hamza" , "abc@gmail.com", 13156123),
+//                    new Student("aman" , "abc@gmail.com", 13156123),
+//                        new Student("wadood" , "abc@gmail.com", 13156145454523),
+
+// ]
+// console.log(arr);
