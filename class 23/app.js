@@ -48,13 +48,22 @@
 
 // ................assigiment project..................................................................................................
 
-// function register(){
-//     var name = document.getElementById("login-name")
-//      var email = document.getElementById("login-email")
-//      var password = document.getElementById("login-password")
-// console.log(name.value , email.value, password.value);
+function register(){
+    var name = document.getElementById("name")
+     var email = document.getElementById("email")
+     var password = document.getElementById("password")
 
-//     }
+     var user = localStorage.getItem("user")
+
+var user = {
+    name: name.value,
+    email: email.value,
+    password: password.value
+}
+
+console.log(name.value, email.value, password.value , user );
+
+    }
 
 
 // video 7
