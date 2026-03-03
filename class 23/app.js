@@ -48,22 +48,70 @@
 
 // ................assigiment project..................................................................................................
 
-function register(){
-    var name = document.getElementById("name")
-     var email = document.getElementById("email")
-     var password = document.getElementById("password")
+// function getUser(){
+//       var users = localStorage.getItem("user")
 
-     var user = localStorage.getItem("user")
-
-var user = {
-    name: name.value,
-    email: email.value,
-    password: password.value
-}
-
-console.log(name.value, email.value, password.value , user );
-
-    }
+//      if(users){
+// users = JSON.parse(users);
+//      }else{
+//         users = [];
+//      }
+//      return users;
+// }
 
 
-// video 7
+// function register(){
+//     var name = document.getElementById("name")
+//      var email = document.getElementById("email")
+//      var password = document.getElementById("password")
+
+// var users = getUser();
+
+// //      var users = localStorage.getItem("user")
+
+// //      if(users){
+// // users = JSON.parse(users);
+// //      }else{
+// //         users = [];
+// //      }
+
+     
+
+// var newUsers = {
+//     name: name.value,
+//     email: email.value,
+//     password: password.value,
+// };
+
+// users.push(newUsers);
+// localStorage.setItem("user", JSON.stringify(users))
+
+// name.value = "";
+// email.value = "" ;
+// password.value = "";
+// }
+
+
+// // login.............
+
+// function login(){
+//     var name = document.getElementById("login-name")
+//      var email = document.getElementById("login-email")
+//       var password = document.getElementById("login-password")
+
+//   var users = getUser()
+
+//   var savaUser = {}
+//     for(var  i =   0;i<users.length;i++){
+//         if(email.value === users[i].email){
+//             savaUser = users[i]
+//             break;
+//         }
+
+//     }
+  
+      
+      
+// }
+
+// video 17
