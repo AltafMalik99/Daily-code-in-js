@@ -48,6 +48,23 @@
 
 // ................assigiment project..................................................................................................
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function getUser(){
 //       var users = localStorage.getItem("user")
 
@@ -110,7 +127,18 @@
 
 //     }
   
-      
+//       if(savaUser.email){
+// if(savaUser.password === password.value){
+//     console.log("userlogin successfull");
+    
+// }else{
+//     console.log("invaild password");
+    
+// }
+//       }else{
+//         console.log("user not found");
+        
+//       }
       
 // }
 
