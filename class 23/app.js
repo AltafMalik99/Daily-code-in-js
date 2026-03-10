@@ -55,8 +55,28 @@ function register (){
     var email = document.getElementById("email")
     var password = document.getElementById("password")
     var user = localStorage.getItem("user")
-    console.log(name.value , email.value, password.value);
-}
+
+
+    if(user){
+        user = JSON.parse(user);
+    }else{
+        user = [];
+    }
+
+    console.log(user);
+    
+    
+        var user = {
+                name: name.value,
+                email: email.value,
+                password: password.value
+            }
+        
+        
+        console.log(name.value , email.value, password.value);
+    }
+
+
 
 // video 8
 
