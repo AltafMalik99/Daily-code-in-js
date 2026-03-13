@@ -49,36 +49,80 @@
 // ................assigiment project..................................................................................................
 
 
+function getUsers(){
+    var users = localStorage.getItem("users");
+
+    if(users){
+        users = JSON.parse(users);
+    }else{
+        users = [];
+    }
+    return users;
+}
+
+
 
 function register (){
     var name = document.getElementById("name")
     var email = document.getElementById("email")
     var password = document.getElementById("password")
-    var user = localStorage.getItem("user")
+  var users = getUsers()
 
 
-    if(user){
-        user = JSON.parse(user);
+    
+    
+    var user = {
+        name: name.value,
+        email: email.value,
+        password: password.value
+    
+    }
+    users.push(user);
+    
+    localStorage.setItem("users", JSON.stringify(users))
+    // console.log(name.value , email.value, password.value);
+    name.value = "";
+    email.value = "";
+    password.value = "";
+}
+
+
+// login..
+
+function login(){
+    var email = document.getElementById("login-email")
+    var password = document.getElementById("login-password")
+    var users = getUsers()
+var safeUser = {};
+
+ for(var i = 0 ; i< users.length; i++){
+    if(email.value === users[i].email){
+        safeUser = users[i];
+        break
+    }
+ }
+    
+ if(safeUser.email){
+
+    if(safeUser.password === password.value){
+        console.log("user login successfully");
+        
+
     }else{
-        user = [];
-    }
-
-    console.log(user);
-    
-    
-        var user = {
-                name: name.value,
-                email: email.value,
-                password: password.value
-            }
+        console.log("invalid password");
         
-        
-        console.log(name.value , email.value, password.value);
     }
 
 
 
-// video 8
+ }else{
+    console.log("user not found");
+    
+ }
+    
+}
+
+// video 18
 
 
 
