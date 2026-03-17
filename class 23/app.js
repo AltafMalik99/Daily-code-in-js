@@ -49,86 +49,68 @@
 // ................assigiment project..................................................................................................
 
 
-function getUsers(){
-    var users = localStorage.getItem("users");
+// function getUsers(){
+//     var users = localStorage.getItem("users");
 
-    if(users){
-        users = JSON.parse(users);
-    }else{
-        users = [];
-    }
-    return users;
-}
+//     if(users){
+//         users = JSON.parse(users);
+//     }else{
+//         users = [];
+//     }
+//     return users;
+// }
 
-
-
-function register (){
-    var name = document.getElementById("name")
-    var email = document.getElementById("email")
-    var password = document.getElementById("password")
-  var users = getUsers()
+// function register (){
+//     var name = document.getElementById("name")
+//     var email = document.getElementById("email")
+//     var password = document.getElementById("password")
+//   var users = getUsers()
 
 
+//     var user = {
+//         name: name.value,
+//         email: email.value,
+//         password: password.value
     
+//     }
+//     users.push(user);
     
-    var user = {
-        name: name.value,
-        email: email.value,
-        password: password.value
+//     localStorage.setItem("users", JSON.stringify(users))
+//     // console.log(name.value , email.value, password.value);
+//     name.value = "";
+//     email.value = "";
+//     password.value = "";
     
-    }
-    users.push(user);
+// }
+
+
+// // login..
+
+// function login(){
+//     var email = document.getElementById("login-email")
+//     var password = document.getElementById("login-password")
+//     var users = getUsers()
+
+
+// var isvalid = false;
+//  for(var i = 0 ; i< users.length; i++){
+//     if(email.value === users[i].email && password.value === users[i].password){
+// isvalid = true;
+//         break
+//     }
+//  }
     
-    localStorage.setItem("users", JSON.stringify(users))
-    // console.log(name.value , email.value, password.value);
-    name.value = "";
-    email.value = "";
-    password.value = "";
-}
 
-
-// login..
-
-function login(){
-    var email = document.getElementById("login-email")
-    var password = document.getElementById("login-password")
-    var users = getUsers()
-var safeUser = {};
-
- for(var i = 0 ; i< users.length; i++){
-    if(email.value === users[i].email){
-        safeUser = users[i];
-        break
-    }
- }
+//  if(isvalid){
+//     console.log("user login successfully");
+//  }else{
+//     console.log("email or password is invalid");
     
- if(safeUser.email){
-
-    if(safeUser.password === password.value){
-        console.log("user login successfully");
-        
-
-    }else{
-        console.log("invalid password");
-        
-    }
-
-
-
- }else{
-    console.log("user not found");
+//  }
     
- }
-    
-}
+// }
 
-// video 18
-
-
-
-
-
-
+// video 31
 
 
 
