@@ -73,5 +73,22 @@
 // }
 // console.log("hello 3");
 
+//  function btn(){
+//     alert("hello")
+// }
+// var btn = document.getElementById("noor");
+// btn.onclick
+
+// function abc(){
+//     alert("hello")
+// }
+
+
+// function abc(){
+//     alert("hello altaf")
+// }
+
+// var btn = document.getElementById("btn")
+// btn.onclick = abc;
 
 // video 56
