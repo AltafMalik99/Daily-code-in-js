@@ -30,18 +30,34 @@ Error handling (try/catech)
 
 // if(true){
 //     let name = "altaf"
-//     // console.log(name); // altaf
+//     console.log(name); // altaf
 // }
-// console.log(name); // error ,
+// console.log(name); // error 
 
 
 
-// const se constant variable declare hoti hai
+// const se constant variable declare hoti hai 
+// value change nhi ho sakti (immutable for primitive types)
+// block-scoped hota hai
+// agar const me object ya array store hai -> object array ke ander ke value
+// change ho sakti ha lekin variable ko new  object assign nhi kar sakta 
 
 // if(true){
-//     let a = "altaf"
+//     const a = "altaf"
 //     console.log(a);
 // }
+
+
+// const pi = 3.1451;
+// pi = 232   // error value change nhi ho sakti
+// console.log(pi);
+
+
+// const user = {name: "malik"};
+// user.name = "ali"; //object ka ander change allowed hai
+// console.log(user.name); // Ali
+
+
 
 
 // video 32
