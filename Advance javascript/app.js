@@ -58,6 +58,32 @@ Error handling (try/catech)
 // console.log(user.name); // Ali
 
 
+// const a = {}
+// a.name = "smit"
+// console.log(a);
 
 
-// video 32
+
+// noor()
+// function noor(){
+//     var hello = "noor"
+//     console.log(hello);
+// }
+
+
+
+// for(var i = 0;i <5; i++){
+//     console.log(i);
+    
+// }
+
+// setTimeout (function(){
+//     console.log("a");
+    
+// },2000)
+// console.log("b");
+
+
+
+
+// video 48
