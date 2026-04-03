@@ -85,5 +85,29 @@ Error handling (try/catech)
 
 
 
+// setTimeout (function(){
+//     console.log("hello");
+    
+// },1000)
+// console.log("malik");
 
-// video 48
+
+// agar ap chahte ho ke error ke bawajood baaki code chale to (try catch) ka use karo
+
+// try {
+//     consoled.log("hello");// error wali line
+    
+// }catch (err){
+//     console.log("error aaye",err);
+    
+// }
+// console.log("malik");
+
+
+// ............Event loop
+
+// js ma sigle threaded hai matlab ek waqt me sirf ek kaam karta hai
+// event loop ye ensure karta hai ke asynchronous code jaise settimeout fetch promises bhi proper dequence me run ho
+
+
+// video 57
