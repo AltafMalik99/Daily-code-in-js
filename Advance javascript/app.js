@@ -107,7 +107,30 @@ Error handling (try/catech)
 // ............Event loop
 
 // js ma sigle threaded hai matlab ek waqt me sirf ek kaam karta hai
-// event loop ye ensure karta hai ke asynchronous code jaise settimeout fetch promises bhi proper dequence me run ho
+// event loop ye ensure karta hai ke asynchronous code jaise settimeout fetch promises bhi proper sequence me run ho
+
+// for(var i = 0;i <5;i++){
+//     console.log("lsdl");
+    
+//     setTimeout (function (){
+// console.log(i);
+
+//     },2000)
+// }
+// console.log("abc");
 
 
-// video 57
+//    setTimeout (function (){
+// console.log("run ho gye");
+
+//     },4000)
+
+
+
+// colsures..
+
+// closure ek function hai jo apne outer (baahar) function ke variables ko yaad rakhta ha 
+// chahe outer function execute ho chuka ho
+
+
+// video 1:14
