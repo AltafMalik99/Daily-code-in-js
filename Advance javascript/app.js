@@ -132,5 +132,54 @@ Error handling (try/catech)
 // closure ek function hai jo apne outer (baahar) function ke variables ko yaad rakhta ha 
 // chahe outer function execute ho chuka ho
 
+// or use case 
+// private variables create karne ke liye
+// data encapsulation data ko safe rakhne ke liye
+// function 
 
-// video 1:14
+// function abc(){
+//     var a = 2;
+
+//     function xyz(){
+
+//     }
+
+//     xyz();  
+
+// }
+// abc();
+
+
+
+// function greeting(name){
+//     let message  = "hello" + name;
+
+//     function showMessage(){
+//         console.log(message);
+        
+//     }
+//     return showMessage;
+// }
+// const greetingAltaf = greeting(" malik")
+// greetingAltaf();
+
+
+// private variable
+
+
+// function counter(){
+//     let count = 0 // ya private vatiable ha 
+
+//     return function(){
+//         count++;
+//         console.log(count);
+        
+//     }
+// }
+
+// const myCounter = counter();
+// myCounter(); 
+// myCounter(); 
+// myCounter(); 
+
+// video 1:20
