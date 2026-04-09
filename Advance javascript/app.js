@@ -164,7 +164,26 @@ Error handling (try/catech)
 // greetingAltaf();
 
 
+
+// function counter (){
+//     let count = 0 ;
+
+//     return function (){
+//         count++;
+//         console.log(count);
+        
+//     }
+// }
+// const c1 = counter();
+// c1();
+// c1()
+// c1()
+// c1()
+
+
+
 // private variable
+
 
 
 // function counter(){
@@ -182,4 +201,87 @@ Error handling (try/catech)
 // myCounter(); 
 // myCounter(); 
 
-// video 1:20
+
+
+// ......use private variable in bank 
+
+// function creatAccount (initialBalance){
+//     let balance = initialBalance // ya private variable ha
+
+//     return{
+//         deposit: function(amount){
+//             balance +=amount;
+//             console.log("deposite", amount);
+            
+//         },
+//         withdraw: function(amount){
+//             if(amount <=balance){
+//                 balance-=amount;
+//                 console.log("withdraw",amount);
+                
+//             }else{
+//                 console.log("insufficient balance");
+                
+//             }
+//         },
+//         checkBalance: function(){
+//             console.log("balance",balance);
+            
+//         }
+//     }
+// }
+
+// const myAccount = creatAccount(100)
+
+// myAccount.deposit(5000)
+// myAccount.withdraw(200);
+// myAccount.checkBalance(50);
+
+// console.log(myAccount.balance);
+
+
+// function test (){
+//     let secret = "hello";
+    
+//     return function(){
+//         console.log(secret);
+        
+//     }
+// }
+// const show = test ();
+// show();
+// console.log(secret);
+
+
+
+// var student = {
+//     name: "ali",
+//     email: "abc@gmail.com",
+// }
+// let {name,email}= student
+// console.log(name);
+// console.log(email);
+
+
+
+//  var student = {
+//     name: "ali",
+//     email: "abc@gmail.com",
+//     classDet:{
+//         time:"9:00",
+//     }
+// }
+
+// let time = "123"
+
+// let {name,email,classDet} = student;
+// let {time: classTime } = classDet
+
+// console.log(classTime);
+// console.log(name);
+// console.log(email);
+
+
+
+
+// video 1:26
