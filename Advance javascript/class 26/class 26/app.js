@@ -16,6 +16,7 @@ Error handling (try/catech)
 // var a = "noor"
 // console.log(a);
 
+// same naam ka variable let se nhi bane sakta 
 
 // let se variable hoti hai value change ho sakti hai
 // block-scoped hoti hai => ke andar accessible bahar nhi
@@ -36,6 +37,7 @@ Error handling (try/catech)
 
 
 
+
 // const se constant variable declare hoti hai 
 // value change nhi ho sakti (immutable for primitive types)
 // block-scoped hota hai
@@ -43,9 +45,9 @@ Error handling (try/catech)
 // change ho sakti ha lekin variable ko new  object assign nhi kar sakta 
 
 // if(true){
-//     const a = "altaf"
-//     console.log(a);
+//     const  a = "altaf"
 // }
+// console.log(a);
 
 
 // const pi = 3.1451;
@@ -56,6 +58,7 @@ Error handling (try/catech)
 // const user = {name: "malik"};
 // user.name = "ali"; //object ka ander change allowed hai
 // console.log(user.name); // Ali
+
 
 
 // const a = {}
@@ -85,11 +88,18 @@ Error handling (try/catech)
 
 
 
+
 // setTimeout (function(){
 //     console.log("hello");
     
-// },1000)
+// },3000)
 // console.log("malik");
+
+
+// setTimeout (function(){
+//     console.log("malik");
+// },3000)
+// console.log("hello");
 
 
 // agar ap chahte ho ke error ke bawajood baaki code chale to (try catch) ka use karo
@@ -104,13 +114,14 @@ Error handling (try/catech)
 // console.log("malik");
 
 
+
 // ............Event loop
 
-// js ma sigle threaded hai matlab ek waqt me sirf ek kaam karta hai
-// event loop ye ensure karta hai ke asynchronous code jaise settimeout fetch promises bhi proper sequence me run ho
+// js ma single threaded hai matlab ek waqt me sirf ek kaam karta hai
+// event loop ye ensure karta hai ke asynchronous code jaise setTimeout fetch promises bhi proper sequence me run ho
 
 // for(var i = 0;i <5;i++){
-//     console.log("lsdl");
+//     console.log("hello");
     
 //     setTimeout (function (){
 // console.log(i);
@@ -127,6 +138,8 @@ Error handling (try/catech)
 
 
 
+
+
 // colsures..
 
 // closure ek function hai jo apne outer (baahar) function ke variables ko yaad rakhta ha 
@@ -137,17 +150,19 @@ Error handling (try/catech)
 // data encapsulation data ko safe rakhne ke liye
 // function 
 
+
 // function abc(){
 //     var a = 2;
 
 //     function xyz(){
-
+//         console.log(a);
+        
 //     }
-
-//     xyz();  
-
+//     xyz();
 // }
 // abc();
+
+// xyz() ka pass a ka access hai kyun ke wo inner function hai isko kehte hai closure
 
 
 
@@ -179,6 +194,7 @@ Error handling (try/catech)
 // c1()
 // c1()
 // c1()
+
 
 
 
@@ -240,14 +256,19 @@ Error handling (try/catech)
 // console.log(myAccount.balance);
 
 
+
+
 // function test (){
 //     let secret = "hello";
+//     console.log(secret);
     
 //     return function(){
-//         console.log(secret);
         
 //     }
 // }
+
+
+
 // const show = test ();
 // show();
 // console.log(secret);
@@ -281,6 +302,24 @@ Error handling (try/catech)
 // console.log(name);
 // console.log(email);
 
+
+
+// const student = {
+//     name: "noor",
+//     age: 20,
+//     city: "karachi"
+// }
+// // destructuring 
+// let {name, age,city} = student;
+
+// console.log("name",name);
+// console.log("age",age);
+// console.log("city",city);
+
+
+
+
+
 // alias...
 
 // kise cheez ko doosre naam se use karna
@@ -304,8 +343,8 @@ Error handling (try/catech)
 //     email: "zmaltaf99@gmail.com",
 // }
 // let search = "name";
-// let {[search]:a} = student;
-// console.log(a);
+// let {[search]:x} = student;
+// console.log(x);
 
 
 // array destructuring 
@@ -331,9 +370,9 @@ Error handling (try/catech)
 
 // let arr2 = ["gmail", "abc@gmail.com"]
 
-//  let marge = [...arr,...arr1,...arr2]
+//  let marges = [...arr,...arr1,...arr2]
 
-//  console.log(marge);
+//  console.log(marges);
  
 
 
@@ -355,4 +394,5 @@ Error handling (try/catech)
 // let marge = {...sdata,...personal,...study}
 
 // console.log(marge);
+
 
