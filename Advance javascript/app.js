@@ -281,7 +281,78 @@ Error handling (try/catech)
 // console.log(name);
 // console.log(email);
 
+// alias...
+
+// kise cheez ko doosre naam se use karna
+
+// const user = {
+//     name: "maik",
+//     age: 19
+// };
+// const {name: userName}= user;
+// console.log(userName);
+
+
+// object destructuring with computed property 
+
+// object se value nikalte ho (destructuring)
+// aur key dynamically variable se decide karta ha
+
+
+// let student = {
+//     name: "malik",
+//     email: "zmaltaf99@gmail.com",
+// }
+// let search = "name";
+// let {[search]:a} = student;
+// console.log(a);
+
+
+// array destructuring 
+
+
+// let arr = ["ali" , "malik" , 123];
+// let[a,b,c] = arr;
+// console.log(a,b,c);
+
+
+// function food(a = "not avilable", ...rest){
+//     console.log(rest);
+    
+// }
+// food("smit","noor","48","90", true)
 
 
 
-// video 1:26
+
+// let arr = ["altaf","malik"]
+
+// let arr1 = ["age", "20"]
+
+// let arr2 = ["gmail", "abc@gmail.com"]
+
+//  let marge = [...arr,...arr1,...arr2]
+
+//  console.log(marge);
+ 
+
+
+// let sdata = {
+//     name: "altaf",
+//     father: "m saleem"
+// }
+
+// let personal = {
+//     email: "abc@gmail.com",
+//     number: "0304*******12"
+// }
+
+// let study = {
+//     class: "1st year",
+//     subject: "math"
+// }
+
+// let marge = {...sdata,...personal,...study}
+
+// console.log(marge);
+
