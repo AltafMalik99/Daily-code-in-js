@@ -394,5 +394,3 @@ Error handling (try/catech)
 // let marge = {...sdata,...personal,...study}
 
 // console.log(marge);
-
-
