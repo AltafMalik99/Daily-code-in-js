@@ -364,6 +364,7 @@ Error handling (try/catech)
 
 
 
+
 // let arr = ["altaf","malik"]
 
 // let arr1 = ["age", "20"]
