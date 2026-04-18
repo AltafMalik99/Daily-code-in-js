@@ -164,8 +164,71 @@ agar koi property exista na kare to error nhi deta bus undefined de deta hai */
 
 
 
+// callback ek function jo kisi dusre function ko argument ke taur pe diya jata hia aur baad me call hoti  
+ 
+// ek function ko doosre function ke ander bhejna aur wahan use chalana,
+
+// function greet(name,callBack){
+//     console.log("hello" + name);
+//     callBack();
+
+// }
+// function sayBye(){
+//     console.log("bye!");
+    
+// }
+
+// greet("Altaf",sayBye)
+
+
+
+
+// function abc(cb){
+//     setTimeout(function (){
+// console.log("hello");
+// cb();        // call hoga jo callBack function hai 
+
+//     },2000 )
+// }
+
+
+// function myCallBack(){
+    // console.log("abc free hoagay ha ab");
+    
+// }
+
+// abc(myCallBack);
+
+
+// callback hell ...
+
+
+
+// promises......................
+
+// callback ka modern version callback hell problem solve karta HTMLDetailsElement
+// .then() aur .catch use hota hai
+
+
+
+
+
 // array methods..........................................................................................
 
+
+// let arr = ["karachi", "lahore","islamabad"]
+// arr.forEach(function(elem, i,all){
+//     console.log(elem,i,all);
+    
+// })
+
+
+// let arr = ["karachi","lahore","islamabad"]
+
+// let result = arr.map(function(elem,i){
+//     return `${else}, pakistan`
+// })
+// console.log(result);
 
 
 
