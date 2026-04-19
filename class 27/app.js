@@ -229,7 +229,3 @@ agar koi property exista na kare to error nhi deta bus undefined de deta hai */
 //     return `${else}, pakistan`
 // })
 // console.log(result);
-
-
-
-// 41
