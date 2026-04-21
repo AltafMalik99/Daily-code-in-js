@@ -14,13 +14,12 @@
 // })
 
 
-
-
 // let number = [1,2,3,4]
 // number.forEach(function (num){
 //     console.log(num);
     
 // })
+
 
 // let arr = ["karachi","islamabad","lahore"]
 
@@ -29,6 +28,12 @@
     
 // })
 
+
+// let  arr = ["karachi","islamabad","lahore"]
+// arr.forEach(function(elem,i,all){
+//     console.log(elem,i,all);
+    
+// })
 
 
 // parameter              meaning
@@ -53,6 +58,8 @@
 
 
 
+
+
 // best logic question
 
 /*  return milte ha function exit ho jata hai value wapas de di jati hai
@@ -65,11 +72,14 @@ uske badd jo bhi likha ho ignore / skip ho jata hai  isko unreachable code ya de
 
 
 // let arr = [1,2,3,4,]
-
 // let result = arr.map(function(num){
 //     return num *2
 // })
 // console.log(result);   // 2,4,3,8
+
+
+
+
 
 // logic ...
 
@@ -98,11 +108,14 @@ uske badd jo bhi likha ho ignore / skip ho jata hai  isko unreachable code ya de
 
 
 
+
+
 // let word = ["karachi","islamabad","lahore"]
 // let result = word.map(function(word){
 //     return word.toUpperCase();
 // })
 // console.log(result);
+
 
 
 
@@ -117,6 +130,10 @@ uske badd jo bhi likha ho ignore / skip ho jata hai  isko unreachable code ya de
 // })
 // console.log(result);
 
+
+
+
+
 // her object se name property uthayi
 
 
@@ -126,6 +143,7 @@ uske badd jo bhi likha ho ignore / skip ho jata hai  isko unreachable code ya de
 // })
 
 // console.log(result);
+
 
 
 // let price = [100,200,300]
@@ -167,7 +185,7 @@ uske badd jo bhi likha ho ignore / skip ho jata hai  isko unreachable code ya de
 // let arr = ["karachi","islamabad","lahore"]
 
 // let result = arr.filter(function(){
-//     return false
+//     return true
 // })
 // console.log(result);
 
@@ -181,5 +199,3 @@ uske badd jo bhi likha ho ignore / skip ho jata hai  isko unreachable code ya de
 
 // console.log(result);
 
-
-//  1:23
