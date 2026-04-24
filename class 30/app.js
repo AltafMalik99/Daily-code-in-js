@@ -157,7 +157,20 @@
 // arrow function ek modren way hai function define karne ka jisme hum
 // function keyword ke bajaye => use karta hai
 
-   
+
+// let greet = () => {
+//     console.log("hello");
+// }
+// greet();
+
+
+// let greet = () => console.log("hello");
+
+
+// let result = x => x * x;
+// console.log(result(5,5));
+
+
 // let abc = (a,b) => {
 //     return a * b;
 // }
@@ -168,6 +181,44 @@
 // let abc = (a,b) =>  a * b;
 // console.log(abc(2,2));
 // console.log(abc(2,5));
+
+
+// let obj = {
+//     name: "malik",
+//     getName: ()=>{
+//         console.log(this);
+        
+//     }
+// }
+// obj.getName()
+
+
+// this 
+// arrow function me this alag behave karta hai wo apna this nhi banata parent se leta hai
+
+
+
+// setTimeout(() =>{
+//     console.log("wait kar");
+    
+// },2000)
+
+
+// function abc(){
+//     console.log(arguments[1]);
+    
+// }
+// abc(2,3)
+
+
+// let user = {
+//     name: "ali",
+//     greet: () => {
+//         console.log(this.name);
+        
+//     }
+// }
+
 
 
 // video 21
